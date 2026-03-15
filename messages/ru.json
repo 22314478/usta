@@ -12,8 +12,8 @@
   "hero": {
     "slide1": {
       "subheading": "Опыт",
-      "heading1": "Maza",
-      "heading2": "Вкусы",
+      "heading1": "Usta Cadde",
+      "heading2": "Lefkoşa",
       "description": "Откройте для себя гастрономический опыт в самом сердце Лефкоши."
     },
     "slide2": {
@@ -26,7 +26,7 @@
       "subheading": "Наследие",
       "heading1": "Верность",
       "heading2": "Традициям",
-      "description": "Где поколения кулинарного искусства встречаются с теплотой гостеприимства Maza."
+      "description": "Где поколения кулинарного искусства встречаются с теплотой гостеприимства Usta Cadde."
     },
     "viewMenu": "Посмотреть меню"
   },
@@ -61,19 +61,19 @@
     },
     "block3": {
       "heading": "Gathering",
-      "description": "Where friends and family come together at the table, surrounded by the warmth of Italian hospitality."
+      "description": "Where friends and family come together at the table, surrounded by the warmth of Mediterranean hospitality."
     }
   },
   "chef": {
     "heading": "Our Chef",
     "subtitle": "SEASONED",
     "quote": "Food is the universal language of mankind.",
-    "bio1": "Команда Maza Lefkoşa привносит многолетний кулинарный опыт и страсть к местным вкусам на ваш стол.",
+    "bio1": "Команда Usta Cadde Lefkoşa привносит многолетний кулинарный опыт и страсть к местным вкусам на ваш стол.",
     "bio2": "Мы здесь, чтобы предложить изысканные блюда традиционной кипрской и средиземноморской кухни.",
     "passionTitle": "СТРАСТЬ",
     "passionDesc": "Глубокое уважение к местным вкусам.",
-    "title": "Команда Maza",
-    "name": "Maza"
+    "title": "Команда Usta Cadde",
+    "name": "Usta Cadde"
   },
   "wine": {
     "heading": "Wine Selection",
@@ -113,11 +113,11 @@
     "customers": {
       "christian": {
         "name": "Кристиан Купер",
-        "text": "Maza превзошла все мои ожидания! Персонал был невероятно внимательным и дружелюбным. Мезе были просто великолепны, а атмосфера сделала наш вечер незабываемым. Обязательно вернемся!"
+        "text": "Usta Cadde превзошла все мои ожидания! Персонал был невероятно внимательным и дружелюбным. Вкусы были просто великолепны, а атмосфера сделала наш вечер незабываемым. Обязательно вернемся!"
       },
       "emily": {
         "name": "Эмили Хьюз",
-        "text": "По-настояelijk волшебный ужин. С того момента, как мы вошли, мы почувствовали себя как дома. Блюда были свежими и идеально приправленными. Очень рекомендую это место в Лефкоше!"
+        "text": "По-настоящему волшебный ужин. С того момента, как мы вошли, мы почувствовали себя как дома. Блюда были свежими и идеально приправленными. Очень рекомендую это место в Лефкоше!"
       },
       "alexander": {
         "name": "Александр Хейс",
@@ -131,7 +131,7 @@
     "description": "Мы предлагаем изысканное кулинарное путешествие с аутентичными блюдами, приготовленными из лучших местных ингредиентов.",
     "slide1": {
       "title": "Настоящие вкусы",
-      "description": "Каждое блюдо рассказывает историю традиций и страсти. От нашей кухни до вашего стола — почувствуйте настоящий вкус Maza."
+      "description": "Каждое блюдо рассказывает историю традиций и страсти. От нашей кухни до вашего стола — почувствуйте настоящий вкус Usta Cadde."
     },
     "slide2": {
       "title": "Вино и Ужин",
@@ -153,12 +153,12 @@
   "homeBlog": {
     "heading": "Resources & Articles",
     "subtitle": "Latest News",
-    "description": "Understanding the regions, flavors, and best pairings for Italian wines.",
+    "description": "Understanding the regions, flavors, and best pairings for Mediterranean wines.",
     "readMore": "Read More"
   },
   "dolceVita": {
     "subtitle": "ПУТЕШЕСТВИЕ ВКУСА",
-    "heading": "Любовь к хорошей еде. В стиле Maza!",
+    "heading": "Любовь к хорошей еде. В стиле Usta Cadde!",
     "description": "От классических кебабов до изысканных мезе, наше меню отражает яркие вкусы и богатые традиции Кипра."
   },
   "menu": {
@@ -168,7 +168,7 @@
     "drinks": "Напитки",
     "items": {
       "meze-tabagi": {
-        "name": "Ассорти мезе Маза",
+        "name": "Usta Cadde Special Meze Plate",
         "description": "Ежедневно свежеприготовленные мезе: Хумус, Мутаббаль, Атом и Кёпоглу.",
         "price": "₺180"
       },
@@ -179,7 +179,7 @@
       },
       "izgara-kofte": {
         "name": "Котлеты на гриле (Кёфте)",
-        "description": "Котлеты на гриле в стиле Маза, с хрустящим картофелем и специальным соусом.",
+        "description": "Котлеты на гриле в стиле Usta Cadde, с хрустящим картофелем и специальным соусом.",
         "price": "₺350"
       },
       "findik-lahmacun": {
@@ -193,7 +193,7 @@
         "price": "₺320"
       },
       "maza-salata": {
-        "name": "Сезонный салат Маза",
+        "name": "Usta Cadde Seasonal Salad",
         "description": "Свежая сезонная зелень с нотками гранатового сиропа и оливкового масла extra virgin.",
         "price": "₺150"
       },
@@ -274,20 +274,20 @@
     }
   },
   "footer": {
-    "description": "Ощутите суть вкуса и традиций в Maza Lefkoşa",
+    "description": "Ощутите суть вкуса и традиций в Usta Cadde Lefkoşa",
     "explore": "Исследовать",
     "contact": "Контакт",
-    "phone": "+90 533 MZA 00 00",
-    "email": "info@mazalefkosa.com",
-    "address": "Tanzimat Sk 166, Lefkoşa 99010",
+    "phone": "+90 539 110 44 44",
+    "email": "info@ustacadde.com",
+    "address": "Mehmet Akif Cd, Lefkoşa 99010",
     "language": "Язык",
-    "copyright": "© Maza Lefkoşa. Все права защищены.",
+    "copyright": "© Usta Cadde Lefkoşa. Все права защищены.",
     "builtBy": "Built by"
   },
   "events": {
     "subtitle": "Встречи и Празднования",
     "heading": "Незабываемые События",
-    "description": "От уютных дегустаций вин до грандиозных празднований, Maza Lefkoşa станет идеальным фоном для ваших самых дорогих моментов.",
+    "description": "От уютных дегустаций вин до грандиозных празднований, Usta Cadde Lefkoşa станет идеальным фоном для ваших самых дорогих моментов.",
     "event1": {
       "title": "Средиземноморский винный вечер",
       "date": "Каждый четверг",
@@ -325,11 +325,11 @@
     "heading": "Контакты",
     "visitHeading": "Посетите нас",
     "locationLabel": "Адрес",
-    "locationText": "Tanzimat Sk 166,\nLefkoşa 99010",
-    "hoursLabel": "Часы работы",
-    "hoursText": "Вторник - Суббота: 12:00 - 01:00\nВоскресенье: 12:00 - 01:00\nПонедельник: Закрыто",
+    "locationText": "Mehmet Akif Cd,\nLefkoşa 99010",
+    "openingHours": "Часы работы",
+    "hoursText": "Вторник - Воскресенье: 12:00 - 01:00\nПонедельник: Закрыто",
     "contactLabel": "Прямая связь",
-    "contactText": "+90 533 MZA 00 00\ninfo@mazalefkosa.com",
+    "contactText": "+90 539 110 44 44\ninfo@ustacadde.com",
     "mapLoading": "Загрузка карты...",
     "formHeading": "Напишите нам",
     "formDescription": "Мы будем рады услышать вас. Пожалуйста, заполните форму ниже.",

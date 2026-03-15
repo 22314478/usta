@@ -12,21 +12,21 @@
   "hero": {
     "slide1": {
       "subheading": "Deneyim",
-      "heading1": "Maza",
+      "heading1": "Usta Cadde",
       "heading2": "Lezzetleri",
-      "description": "Lefkoşa'nın kalbinde, geleneksel meze ve ızgara sanatını keşfedin."
+      "description": "Lefkoşa'nın kalbinde, geleneksel lezzetlerin modern sanatını keşfedin."
     },
     "slide2": {
       "subheading": "Tat",
       "heading1": "Otantik",
       "heading2": "Mutfak",
-      "description": "En taze yerel malzemelerle hazırlanan eşsiz Maza tarifleri."
+      "description": "En taze yerel malzemelerle hazırlanan eşsiz Usta Cadde tarifleri."
     },
     "slide3": {
       "subheading": "Miras",
       "heading1": "Köklü",
       "heading2": "Gelenek",
-      "description": "Mutfak sanatının samimi bir sofrada buluştuğu Maza dünyasına hoş geldiniz."
+      "description": "Mutfak sanatının samimi bir sofrada buluştuğu Usta Cadde dünyasına hoş geldiniz."
     },
     "viewMenu": "Menüyü Görüntüle"
   },
@@ -56,8 +56,8 @@
       "description": "Lefkoşa'nın kalbinde, geleneksel tariflerin modern dokunuşlarla buluştuğu eşsiz bir mekan."
     },
     "block2": {
-      "heading": "Mezeler",
-      "description": "Özenle hazırlanan mezelerimizle sofralarınıza zenginlik ve keyif katıyoruz."
+      "heading": "Lezzetler",
+      "description": "Özenle hazırlanan yemeklerimizle sofralarınıza zenginlik ve keyif katıyoruz."
     },
     "block3": {
       "heading": "Buluşma",
@@ -68,12 +68,12 @@
     "heading": "Ekibimiz",
     "subtitle": "DENEYİMLİ",
     "quote": "Lezzet, sevgiyle harmanlanan bir sanattır.",
-    "bio1": "Maza Lefkoşa ekibi, yılların mutfak uzmanlığını ve yerel lezzetlere olan tutkusunu sofranıza taşıyor.",
+    "bio1": "Usta Cadde Lefkoşa ekibi, yılların mutfak uzmanlığını ve yerel lezzetlere olan tutkusunu sofranıza taşıyor.",
     "bio2": "Geleneksel Kıbrıs ve Akdeniz mutfağının en seçkin örneklerini sunmak için buradayız.",
     "passionTitle": "TUTKU",
     "passionDesc": "Yerel lezzetlere derin takdir.",
-    "title": "Maza Ekibi",
-    "name": "Maza"
+    "title": "Usta Cadde Ekibi",
+    "name": "Usta Cadde"
   },
   "wine": {
     "heading": "Şarap Seçkisi",
@@ -113,7 +113,7 @@
     "customers": {
       "christian": {
         "name": "Christian Cooper",
-        "text": "Maza beklentilerimin ötesine geçti! Personel inanılmaz derecede ilgili ve güler yüzlüydü. Mezeler tek kelimeyle muhteşemdi ve atmosfer akşamımızı unutulmaz kıldı. Kesinlikle tekrar geleceğiz!"
+        "text": "Usta Cadde beklentilerimin ötesine geçti! Personel inanılmaz derecede ilgili ve güler yüzlüydü. Lezzetler tek kelimeyle muhteşemdi ve atmosfer akşamımızı unutulmaz kıldı. Kesinlikle tekrar geleceğiz!"
       },
       "emily": {
         "name": "Emily Hughes",
@@ -131,7 +131,7 @@
     "description": "En taze yerel malzemelerle hazırlanan otantik yemeklerle seçkin bir lezzet yolculuğu sunuyoruz.",
     "slide1": {
       "title": "Gerçek Lezzetler",
-      "description": "Her yemek bir gelenek ve tutku hikayesi anlatır. Mutfağımızdan sofranıza, Maza'nın gerçek tadını deneyimleyin."
+      "description": "Her yemek bir gelenek ve tutku hikayesi anlatır. Mutfağımızdan sofranıza, Usta Cadde'nin gerçek tadını deneyimleyin."
     },
     "slide2": {
       "title": "Yemek & Şarap",
@@ -153,13 +153,13 @@
   "homeBlog": {
     "heading": "Kaynaklar ve Makaleler",
     "subtitle": "Son Haberler",
-    "description": "İtalyan şarapları için bölgeleri, lezzetleri ve en iyi eşleşmeleri anlamak.",
+    "description": "Akdeniz şarapları için bölgeleri, lezzetleri ve en iyi eşleşmeleri anlamak.",
     "readMore": "Devamını Oku"
   },
   "dolceVita": {
-    "subtitle": "LA DOLCE VITA",
-    "heading": "İtalyan Yemeğine Aşk. Mamma Mia!",
-    "description": "Klasik makarna yemeklerinden lezzetli deniz ürünleri spesiyallerine kadar, menümüz İtalyan mutfağının canlı lezzetlerini ve zengin geleneklerini sergiliyor."
+    "subtitle": "LEZZET YOLCULUĞU",
+    "heading": "İyi Yemeğe Aşk. Usta Cadde Usulü!",
+    "description": "Klasik kebaplardan lezzetli meze çeşitlerine kadar, menümüz Kıbrıs mutfağının canlı lezzetlerini ve zengin geleneklerini sergiliyor."
   },
   "menu": {
     "heading": "Menümüz",
@@ -169,8 +169,8 @@
     "close": "Kapat",
     "items": {
       "meze-tabagi": {
-        "name": "Maza Özel Meze Tabağı",
-        "description": "Günlük hazırlanan taze meze çeşitleri: Humus, Mutabbel, Atom ve Köpoğlu.",
+        "name": "Usta Cadde Özel Meze Tabağı",
+        "description": "Günlük hazırlanan taze meze çeşitleri: Hummus, Mutabbel, Atom ve Köpoğlu.",
         "price": "₺180"
       },
       "kuzu-sis": {
@@ -180,7 +180,7 @@
       },
       "izgara-kofte": {
         "name": "Izgara Köfte",
-        "description": "Maza usulü baharatlı ızgara köfte, çıtır patates ve özel sosuyla.",
+        "description": "Usta Cadde usulü baharatlı ızgara köfte, çıtır patates ve özel sosuyla.",
         "price": "₺350"
       },
       "findik-lahmacun": {
@@ -194,7 +194,7 @@
         "price": "₺320"
       },
       "maza-salata": {
-        "name": "Maza Mevsim Salata",
+        "name": "Usta Cadde Mevsim Salata",
         "description": "Taze mevsim yeşillikleri, nar ekşisi ve sızma zeytinyağı dokunuşuyla.",
         "price": "₺150"
       },
@@ -263,7 +263,7 @@
   "booking": {
     "heading": "Masa Rezervasyonu",
     "subtitle": "İletişime Geçin",
-    "description": "İtalya'nın zamansız lezzetlerini kutlayın, her öğünün bir başyapıt olduğu yer.",
+    "description": "Usta Cadde'nin zamansız lezzetlerini kutlayın, her öğünün bir başyapıt olduğu yer.",
     "form": {
       "name": "Ad",
       "email": "E-posta",
@@ -275,20 +275,20 @@
     }
   },
   "footer": {
-    "description": "Maza Lefkoşa'da lezzetin ve geleneğin özünü deneyimleyin",
+    "description": "Usta Cadde Lefkoşa'da lezzetin ve geleneğin özünü deneyimleyin",
     "explore": "Keşfet",
     "contact": "İletişim",
-    "phone": "+90 533 MZA 00 00",
-    "email": "info@mazalefkosa.com",
-    "address": "Tanzimat Sk 166, Lefkoşa 99010",
+    "phone": "+90 539 110 44 44",
+    "email": "info@ustacadde.com",
+    "address": "Mehmet Akif Cd, Lefkoşa 99010",
     "language": "Dil",
-    "copyright": "© Maza Lefkoşa. Tüm hakları saklıdır.",
+    "copyright": "© Usta Cadde Lefkoşa. Tüm hakları saklıdır.",
     "builtBy": "Yapımcı"
   },
   "events": {
     "subtitle": "Buluşmalar ve Kutlamalar",
     "heading": "Unutulmaz Etkinlikler",
-    "description": "Samimi şarap tadımlarından büyük kutlamalara kadar, Maza Lefkoşa en değerli anlarınız için mükemmel bir atmosfer sunar.",
+    "description": "Samimi şarap tadımlarından büyük kutlamalara kadar, Usta Cadde Lefkoşa en değerli anlarınız için mükemmel bir atmosfer sunar.",
     "event1": {
       "title": "Akdeniz Şarap Gecesi",
       "date": "Her Perşembe",
@@ -322,15 +322,32 @@
     "reserve": "Yerinizi Ayırtın"
   },
   "contact": {
-    "subtitle": "İletişime Geçin", "heading": "Bize Ulaşın", "visitHeading": "Mekanımızı Ziyaret Edin",
-    "locationLabel": "Konum", "locationText": "Tanzimat Sk 166,\nLefkoşa 99010",
-    "hoursLabel": "Çalışma Saatleri", "hoursText": "Salı - Cumartesi: 12:00 - 01:00\nPazar: 12:00 - 01:00\nPazartesi: Kapalı",
-    "contactLabel": "Doğrudan İletişim", "contactText": "+90 533 000 00 00\ninfo@mazalefkosa.com",
-    "mapLoading": "Etkileşimli Harita Yükleniyor...", "formHeading": "Mesaj Gönderin", "formDescription": "Sizden haber almak isteriz. Lütfen aşağıdaki formu doldurun.",
-    "firstName": "Ad", "firstNamePlaceholder": "Örn. Ahmet", "lastName": "Soyad", "lastNamePlaceholder": "Örn. Yılmaz",
-    "email": "E-posta Adresi", "emailPlaceholder": "ahmet@example.com", "subject": "Konu",
-    "subjectReservation": "Rezervasyon Sorgusu", "subjectEvent": "Özel Etkinlik", "subjectGeneral": "Genel Soru", "subjectFeedback": "Geri Bildirim",
-    "message": "Mesaj", "messagePlaceholder": "Talebiniz hakkında daha fazla bilgi verin...", "submit": "Mesaj Gönder"
+    "subtitle": "İletişime Geçin",
+    "heading": "Bize Ulaşın",
+    "visitHeading": "Mekanımızı Ziyaret Edin",
+    "locationLabel": "Konum",
+    "locationText": "Mehmet Akif Cd,\nLefkoşa 99010",
+    "hoursLabel": "Çalışma Saatleri",
+    "hoursText": "Salı - Pazar: 12:00 - 01:00\nPazartesi: Kapalı",
+    "contactLabel": "Doğrudan İletişim",
+    "contactText": "+90 539 110 44 44\ninfo@ustacadde.com",
+    "mapLoading": "Etkileşimli Harita Yükleniyor...",
+    "formHeading": "Mesaj Gönderin",
+    "formDescription": "Sizden haber almak isteriz. Lütfen aşağıdaki formu doldurun.",
+    "firstName": "Ad",
+    "firstNamePlaceholder": "Örn. Ahmet",
+    "lastName": "Soyad",
+    "lastNamePlaceholder": "Örn. Yılmaz",
+    "email": "E-posta Adresi",
+    "emailPlaceholder": "ahmet@example.com",
+    "subject": "Konu",
+    "subjectReservation": "Rezervasyon Sorgusu",
+    "subjectEvent": "Özel Etkinlik",
+    "subjectGeneral": "Genel Soru",
+    "subjectFeedback": "Geri Bildirim",
+    "message": "Mesaj",
+    "messagePlaceholder": "Talebiniz hakkında daha fazla bilgi verin...",
+    "submit": "Mesaj Gönder"
   },
   "admin": {
     "title": "Admin Paneli",

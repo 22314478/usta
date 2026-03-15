@@ -12,9 +12,9 @@
   "hero": {
     "slide1": {
       "subheading": "Esperienza",
-      "heading1": "Italiano",
-      "heading2": "Ristorante",
-      "description": "Scopri un'esperienza gastronomica che ti trasporta nel cuore dell'Italia."
+      "heading1": "Usta Cadde",
+      "heading2": "Lefkoşa",
+      "description": "Scopri un'esperienza gastronomica che ti trasporta nel cuore di Lefkoşa."
     },
     "slide2": {
       "subheading": "Gusto",
@@ -26,7 +26,7 @@
       "subheading": "Eredità",
       "heading1": "Radicato nella",
       "heading2": "Tradizione",
-      "description": "Dove generazioni di arte culinaria incontrano il calore dell'ospitalità italiana."
+      "description": "Dove generazioni di arte culinaria incontrano il calore dell'ospitalità Usta Cadde."
     },
     "viewMenu": "Vedi Menu"
   },
@@ -52,8 +52,8 @@
     "heading": "La Nostra Storia",
     "subtitle": "Dal 1982",
     "block1": {
-      "heading": "Italia",
-      "description": "I visitatori sono attratti dalla sua affascinante campagna, dai vigneti di fama mondiale e dal profondo legame con l'Italia."
+      "heading": "Tradizione",
+      "description": "I visitatori sono attratti dal nostro ambiente affascinante e dal profondo legame con i sapori autentici."
     },
     "block2": {
       "heading": "Reinterpretato",
@@ -61,19 +61,19 @@
     },
     "block3": {
       "heading": "Riunione",
-      "description": "Dove amici e famiglia si riuniscono a tavola, circondati dal calore dell'ospitalità italiana."
+      "description": "Dove amici e famiglia si riuniscono a tavola, circondati dal calore della nostra ospitalità."
     }
   },
   "chef": {
-    "heading": "Il Nostro Chef",
+    "heading": "Il Nostro Team",
     "subtitle": "ESPERTO",
     "quote": "Il cibo è il linguaggio universale dell'umanità.",
-    "bio1": "Il rinomato Chef Antonio Carbone porta decenni di esperienza culinaria e una passione per la cucina italiana a Figaro.",
-    "bio2": "Con un background stellato Michelin, ha creato un menu che celebra la ricchezza e la diversità della gastronomia italiana.",
+    "bio1": "Il team di Usta Cadde Lefkoşa porta decenni di esperienza culinaria e una passione per i sapori locali.",
+    "bio2": "Siamo qui per celebrare la ricchezza della cucina tradizionale cipriota e mediterranea.",
     "passionTitle": "PASSIONE",
-    "passionDesc": "Profondo apprezzamento per i sapori italiani.",
-    "title": "Chef Esecutivo",
-    "name": "Antonio Carbone"
+    "passionDesc": "Profondo apprezzamento per i sapori locali.",
+    "title": "Team Usta Cadde",
+    "name": "Usta Cadde"
   },
   "wine": {
     "heading": "Selezione Vini",
@@ -82,27 +82,27 @@
     "wines": {
       "barolo": {
         "name": "Barolo",
-        "price": "€85",
+        "price": "₺85",
         "description": "Rosso corposo del Piemonte con note di ciliegia, rosa e tartufo."
       },
       "barbaresco": {
         "name": "Barbaresco",
-        "price": "€78",
+        "price": "₺78",
         "description": "Elegante Nebbiolo con tannini raffinati e aromi floreali."
       },
       "chianti": {
         "name": "Chianti Classico",
-        "price": "€62",
+        "price": "₺62",
         "description": "Classico rosso toscano con ciliegia brillante e note terrose."
       },
       "prosecco": {
         "name": "Prosecco",
-        "price": "€48",
+        "price": "₺48",
         "description": "Bianco frizzante con note croccanti di mela e pera."
       },
       "soave": {
         "name": "Soave",
-        "price": "€52",
+        "price": "₺52",
         "description": "Vino bianco rinfrescante con sapori di agrumi e mandorla."
       }
     }
@@ -113,29 +113,29 @@
     "customers": {
       "christian": {
         "name": "Christian Cooper",
-        "text": "Italiano ha superato le mie aspettative! Il personale era incredibilmente attento e cordiale, assicurandosi che avessimo tutto ciò di cui avevamo bisogno. La Bistecca era cotta proprio come piace a me, e il tiramisù era il migliore che abbia mai mangiato. Il servizio, combinato con il cibo delizioso, ha reso la serata indimenticabile."
+        "text": "Usta Cadde ha superato le mie aspettative! Il personale era incredibilmente attento e cordiale. I sapori erano eccellenti e l'atmosfera ha reso la serata indimenticabile."
       },
       "emily": {
         "name": "Emily Hughes",
-        "text": "Un'esperienza culinaria davvero magica. Dal momento in cui siamo entrati, ci siamo sentiti come in famiglia. La pasta era fresca e perfettamente condita, e i consigli sull'abbinamento dei vini erano perfetti. Torneremo sicuramente."
+        "text": "Un'esperienza culinaria davvero magica. Dal momento in cui siamo entrati, ci siamo sentiti come in famiglia. I piatti erano freschi e perfetti. Torneremo sicuramente."
       },
       "alexander": {
         "name": "Alexander Hayes",
-        "text": "Cucina italiana eccezionale in un ambiente elegante. L'Osso Buco era tenero e saporito, e la selezione di dessert era impressionante. L'attenzione ai dettagli sia nel cibo che nel servizio ha reso la nostra cena di anniversario indimenticabile."
+        "text": "Cucina eccezionale in un ambiente elegante. L'attenzione ai dettagli sia nel cibo che nel servizio ha reso la nostra cena di anniversario indimenticabile."
       }
     }
   },
   "carousel": {
     "heading": "Ingredienti di Qualità",
     "subtitle": "AUTENTICO",
-    "description": "Offriamo un viaggio culinario squisito, con piatti autentici realizzati con i migliori ingredienti regionali.",
+    "description": "Offriamo un viaggio culinario squisito, con piatti autentici realizzati con i migliori ingredienti locali.",
     "slide1": {
       "title": "Sapori Autentici",
-      "description": "Ogni piatto racconta una storia di tradizione e passione. Dalla nostra cucina alla vostra tavola, vivete il vero gusto dell'Italia."
+      "description": "Ogni piatto racconta una storia di tradizione e passione. Dalla nostra cucina alla vostra tavola, vivete il vero gusto di Usta Cadde."
     },
     "slide2": {
       "title": "Vino e Cena",
-      "description": "I nostri sommelier hanno selezionato vini che completano perfettamente ogni portata. Brindisi alla dolce vita."
+      "description": "I nostri sommelier hanno selezionato vini che completano perfettamente ogni portata. Brindisi alla salute."
     },
     "slide3": {
       "title": "Ingredienti di Stagione",
@@ -153,64 +153,39 @@
   "homeBlog": {
     "heading": "Risorse e Articoli",
     "subtitle": "Ultime Notizie",
-    "description": "Comprendere le regioni, i sapori e i migliori abbinamenti per i vini italiani.",
+    "description": "Comprendere le regioni, i sapori e i migliori abbinamenti per i vini mediterranei.",
     "readMore": "Leggi di Più"
   },
   "dolceVita": {
-    "subtitle": "LA DOLCE VITA",
-    "heading": "Amore per il Cibo Italiano. Mamma Mia!",
-    "description": "Dai classici piatti di pasta alle deliziose specialità di pesce, il nostro menu mette in mostra i sapori vibranti e le ricche tradizioni della cucina italiana."
+    "subtitle": "VIAGGIO NEL GUSTO",
+    "heading": "Amore per il Buon Cibo. Nello stile Usta Cadde!",
+    "description": "Dalle ricette autentiche ai deliziosi antipasti, il nostro menu mette in mostra i sapori vibranti e le ricche tradizioni della nostra cucina."
   },
   "menu": {
     "heading": "Il Nostro Menu",
-    "subtitle": "AL DENTE",
+    "subtitle": "AUTENTICO",
     "items": {
-      "bolognese": {
-        "name": "Bolognese",
-        "description": "Spaghetti classici conditi con un saporito ragù di carne cotto lentamente e Parmigiano.",
-        "price": "€64"
+      "meze-tabagi": {
+        "name": "Piatto Meze Speciale Usta Cadde",
+        "description": "Meze freschi preparati quotidianamente: Hummus, Mutabbal, Atom e Köpoğlu.",
+        "price": "₺180"
       },
-      "carbonara": {
-        "name": "Carbonara",
-        "description": "Piatto romano classico con pancetta, uova, Pecorino Romano e pepe nero.",
-        "price": "€58"
+      "kuzu-sis": {
+        "name": "Kuzu Şiş",
+        "description": "Shish kebab di agnello servito con peperoni grigliati e riso.",
+        "price": "₺450"
       },
-      "calamari": {
-        "name": "Calamari",
-        "description": "Calamari fritti croccanti e dorati serviti con marinara e spicchi di limone.",
-        "price": "€39"
-      },
-      "bistecca": {
-        "name": "Bistecca",
-        "description": "Bistecca succosa in una ricca salsa cremosa al pepe verde e brandy.",
-        "price": "€72"
-      },
-      "lasagna": {
-        "name": "Lasagna",
-        "description": "Strati di pasta, ragù di carne cotto lentamente, besciamella e Parmigiano.",
-        "price": "€78"
-      },
-      "cacciatora": {
-        "name": "Cacciatora",
-        "description": "Una variante di pesce con gamberi, calamari e cozze in una fragrante salsa di pomodoro e vino bianco.",
-        "price": "€62"
-      },
-      "branzino": {
-        "name": "Branzino",
-        "description": "Branzino mediterraneo intero al forno con erbe fresche, aglio e olio d'oliva.",
-        "price": "€54"
-      },
-      "ossoBuco": {
-        "name": "Osso Buco",
-        "description": "Un classico italiano senza tempo, brasato alla perfezione e abbinato a verdure di stagione.",
-        "price": "€67"
+      "izgara-kofte": {
+        "name": "Polpette alla Griglia",
+        "description": "Polpette alla griglia in stile Usta Cadde con patate croccanti.",
+        "price": "₺350"
       }
     }
   },
   "booking": {
     "heading": "Prenota un Tavolo",
     "subtitle": "Contattaci",
-    "description": "Celebra i sapori senza tempo dell'Italia, dove ogni pasto è un capolavoro.",
+    "description": "Celebra i sapori senza tempo di Usta Cadde, dove ogni pasto è un capolavoro.",
     "form": {
       "name": "Nome",
       "email": "Email",
@@ -220,41 +195,43 @@
     }
   },
   "footer": {
-    "description": "Vivi l'essenza del Mediterraneo al Kyma Cyprus",
+    "description": "Vivi l'essenza della tradizione presso Usta Cadde Lefkoşa",
     "explore": "Esplora",
     "contact": "Contatto",
-    "address": "28 Archbishop Makarios III Ave, Limassol, Cipro, 3035",
+    "phone": "+90 539 110 44 44",
+    "email": "info@ustacadde.com",
+    "address": "Mehmet Akif Cd, Lefkoşa 99010",
     "language": "Lingua",
-    "copyright": "© Kyma Cyprus. Tutti i diritti riservati.",
+    "copyright": "© Usta Cadde Lefkoşa. Tutti i diritti riservati.",
     "builtBy": "Creato da"
   },
   "events": {
     "subtitle": "Riunioni e Celebrazioni",
     "heading": "Eventi Indimenticabili",
-    "description": "Da degustazioni intime a grandi celebrazioni, Kyma Cyprus offre lo scenario perfetto per i vostri momenti più preziosi.",
+    "description": "Da degustazioni intime a grandi celebrazioni, Usta Cadde Lefkoşa offre lo scenario perfetto per i vostri momenti più preziosi.",
     "event1": {
       "title": "Serata Vini Mediterranei",
       "date": "Ogni Giovedì",
       "time": "19:00 - 22:00",
-      "description": "Un viaggio esclusivo di degustazione attraverso i migliori vigneti di Cipro, abbinato a formaggi artigianali e antipasti costieri.",
+      "description": "Un viaggio esclusivo di degustazione attraverso i migliori vigneti, abbinato a formaggi artigianali.",
       "tag": "Scelta del Sommelier"
     },
     "event2": {
-      "title": "Jazz al Tramonto e Frutti di Mare",
+      "title": "Jazz al Tramonto",
       "date": "Sabato",
       "time": "18:00 - 23:00",
-      "description": "Vivi la magia del jazz dal vivo sullo sfondo del tramonto di Paphos, con i nostri piatti di pesce caratteristici.",
+      "description": "Vivi la magia del jazz dal vivo sullo sfondo del tramonto di Lefkoşa.",
       "tag": "Atmosfera"
     },
     "event3": {
       "title": "Masterclass Culinaria",
       "date": "Prima Domenica del Mese",
       "time": "11:00 - 14:00",
-      "description": "Unisciti al nostro Chef Esecutivo per una sessione di cucina intima, imparando i segreti della fusione tradizionale cipriota-mediterranea.",
+      "description": "Unisciti al nostro Chef per una sessione di cucina intima.",
       "tag": "Workshop"
     },
     "privateHeading": "Ospita la Tua Occasione Privata",
-    "privateDescription": "Che si tratti di una cena di prova intima, un anniversario importante o un ritiro aziendale, il nostro team dedicato agli eventi creerà un'esperienza su misura per la tua visione.",
+    "privateDescription": "Che si tratti di un anniversario o di un evento aziendale, il nostro team creerà un'esperienza su misura per la tua visione.",
     "capacity": "50+",
     "capacityLabel": "Capacità Ospiti",
     "customMenu": "Personalizzato",
@@ -262,34 +239,19 @@
     "buyout": "Completo",
     "buyoutLabel": "Affitto Completo",
     "enquire": "Richiedi Ora",
-    "reserve": "Prenota il Tuo Posto"
+    "reserve": "Prenota"
   },
   "contact": {
-    "subtitle": "Mettiti in Contatto",
-    "heading": "Contattaci",
-    "visitHeading": "Visita il Nostro Santuario",
-    "locationLabel": "Posizione",
-    "locationText": "12 Poseidonos Avenue,\n8042 Paphos, Cipro",
-    "hoursLabel": "Orari di Apertura",
-    "hoursText": "Lunedì - Domenica: 12:00 - 23:00\nHappy Hour: 16:00 - 18:00",
-    "contactLabel": "Contatto Diretto",
-    "contactText": "+357 26 000000\nexperience@kymacyprus.com",
-    "mapLoading": "Caricamento Mappa Interattiva...",
+    "subtitle": "Mettiti in Contatto", "heading": "Contattaci", "visitHeading": "Vieni a Trovarci",
+    "locationLabel": "Posizione", "locationText": "Mehmet Akif Cd,\nLefkoşa 99010",
+    "hoursLabel": "Orari di Apertura", "hoursText": "Martedì - Domenica: 12:00 - 01:00\nLunedì: Chiuso",
+    "contactLabel": "Contatto Diretto", "contactText": "+90 539 110 44 44\ninfo@ustacadde.com",
+    "mapLoading": "Caricamento...",
     "formHeading": "Invia un Messaggio",
     "formDescription": "Ci piacerebbe sentirti. Compila il modulo qui sotto.",
-    "firstName": "Nome",
-    "firstNamePlaceholder": "Es. Alessandro",
-    "lastName": "Cognome",
-    "lastNamePlaceholder": "Es. Rossi",
-    "email": "Indirizzo Email",
-    "emailPlaceholder": "alessandro@example.com",
-    "subject": "Oggetto",
-    "subjectReservation": "Richiesta Prenotazione",
-    "subjectEvent": "Evento Privato",
-    "subjectGeneral": "Domanda Generale",
-    "subjectFeedback": "Feedback",
-    "message": "Messaggio",
-    "messagePlaceholder": "Raccontaci di più sulla tua richiesta...",
-    "submit": "Invia Messaggio"
+    "firstName": "Nome", "firstNamePlaceholder": "Es. Alessandro", "lastName": "Cognome", "lastNamePlaceholder": "Es. Rossi",
+    "email": "Indirizzo Email", "emailPlaceholder": "alessandro@example.com", "subject": "Oggetto",
+    "subjectReservation": "Prenotazione", "subjectEvent": "Evento", "subjectGeneral": "Domanda", "subjectFeedback": "Feedback",
+    "message": "Messaggio", "messagePlaceholder": "Raccontaci di più...", "submit": "Invia"
   }
 }

@@ -12,7 +12,7 @@
   "hero": {
     "slide1": {
       "subheading": "Experience",
-      "heading1": "Maza",
+      "heading1": "Usta Cadde",
       "heading2": "Lefkoşa",
       "description": "Discover a gastronomic experience that transports you to the heart of Lefkoşa."
     },
@@ -26,7 +26,7 @@
       "subheading": "Heritage",
       "heading1": "Rooted in",
       "heading2": "Tradition",
-      "description": "Where generations of culinary artistry meet the warmth of Maza hospitality."
+      "description": "Where generations of culinary artistry meet the warmth of Usta Cadde hospitality."
     },
     "viewMenu": "View Menu"
   },
@@ -61,19 +61,19 @@
     },
     "block3": {
       "heading": "Gathering",
-      "description": "Where friends and family come together at the table, surrounded by the warmth of Italian hospitality."
+      "description": "Where friends and family come together at the table, surrounded by the warmth of Mediterranean hospitality."
     }
   },
   "chef": {
     "heading": "Our Chef",
     "subtitle": "SEASONED",
     "quote": "Food is the universal language of mankind.",
-    "bio1": "The Maza Lefkoşa team brings years of culinary expertise and a passion for local flavors to your table.",
+    "bio1": "The Usta Cadde Lefkoşa team brings years of culinary expertise and a passion for local flavors to your table.",
     "bio2": "We are here to offer the most exquisite examples of traditional Cypriot and Mediterranean cuisine.",
     "passionTitle": "PASSION",
     "passionDesc": "Deep appreciation for local flavors.",
-    "title": "Maza Team",
-    "name": "Maza"
+    "title": "Usta Cadde Team",
+    "name": "Usta Cadde"
   },
   "wine": {
     "heading": "Wine Selection",
@@ -113,7 +113,7 @@
     "customers": {
       "christian": {
         "name": "Christian Cooper",
-        "text": "Maza exceeded my expectations! The staff was incredibly attentive and friendly. The mezes were simply magnificent, and the atmosphere made for an unforgettable evening. We'll definitely be back!"
+        "text": "Usta Cadde exceeded my expectations! The staff was incredibly attentive and friendly. The flavors were simply magnificent, and the atmosphere made for an unforgettable evening. We'll definitely be back!"
       },
       "emily": {
         "name": "Emily Hughes",
@@ -131,7 +131,7 @@
     "description": "We offer an exquisite culinary journey, featuring authentic dishes crafted with the finest local ingredients.",
     "slide1": {
       "title": "Authentic Flavors",
-      "description": "Every dish tells a story of tradition and passion. From our kitchen to your table, experience the true taste of Maza."
+      "description": "Every dish tells a story of tradition and passion. From our kitchen to your table, experience the true taste of Usta Cadde."
     },
     "slide2": {
       "title": "Wine & Dine",
@@ -153,12 +153,12 @@
   "homeBlog": {
     "heading": "Resources & Articles",
     "subtitle": "Latest News",
-    "description": "Understanding the regions, flavors, and best pairings for Italian wines.",
+    "description": "Understanding the regions, flavors, and best pairings for Mediterranean wines.",
     "readMore": "Read More"
   },
   "dolceVita": {
     "subtitle": "FLAVOR JOURNEY",
-    "heading": "Love for Good Food. Maza Style!",
+    "heading": "Love for Good Food. Usta Cadde Style!",
     "description": "From classic kebabs to delectable meze specialties, our menu showcases the vibrant flavors and rich traditions of Cyprus."
   },
   "menu": {
@@ -168,7 +168,7 @@
     "drinks": "Drinks",
     "items": {
       "meze-tabagi": {
-        "name": "Maza Special Meze Plate",
+        "name": "Usta Cadde Special Meze Plate",
         "description": "Daily prepared fresh meze varieties: Hummus, Mutabbel, Atom and Köpoğlu.",
         "price": "₺180"
       },
@@ -179,7 +179,7 @@
       },
       "izgara-kofte": {
         "name": "Grilled Meatballs",
-        "description": "Maza style spicy grilled meatballs, with crispy potatoes and special sauce.",
+        "description": "Usta Cadde style spicy grilled meatballs, with crispy potatoes and special sauce.",
         "price": "₺350"
       },
       "findik-lahmacun": {
@@ -193,7 +193,7 @@
         "price": "₺320"
       },
       "maza-salata": {
-        "name": "Maza Seasonal Salad",
+        "name": "Usta Cadde Seasonal Salad",
         "description": "Fresh seasonal greens with a touch of pomegranate molasses and extra virgin olive oil.",
         "price": "₺150"
       },
@@ -274,20 +274,20 @@
     }
   },
   "footer": {
-    "description": "Experience the essence of flavor and tradition at Maza Lefkoşa",
+    "description": "Experience the essence of flavor and tradition at Usta Cadde Lefkoşa",
     "explore": "Explore",
     "contact": "Contact",
-    "phone": "+90 533 MZA 00 00",
-    "email": "info@mazalefkosa.com",
-    "address": "Tanzimat Sk 166, Nicosia 99010",
+    "phone": "+90 539 110 44 44",
+    "email": "info@ustacadde.com",
+    "address": "Mehmet Akif Cd, Lefkoşa 99010",
     "language": "Language",
-    "copyright": "© Maza Lefkoşa. All Rights Reserved.",
+    "copyright": "© Usta Cadde Lefkoşa. All Rights Reserved.",
     "builtBy": "Built by"
   },
   "events": {
     "subtitle": "Gatherings & Celebrations",
     "heading": "Unforgettable Events",
-    "description": "From intimate wine tastings to grand celebrations, Maza Lefkoşa provides the perfect backdrop for your most cherished moments.",
+    "description": "From intimate wine tastings to grand celebrations, Usta Cadde Lefkoşa provides the perfect backdrop for your most cherished moments.",
     "event1": {
       "title": "Mediterranean Wine Evening",
       "date": "Every Thursday",
@@ -325,11 +325,11 @@
     "heading": "Contact Us",
     "visitHeading": "Visit Us",
     "locationLabel": "Address",
-    "locationText": "Tanzimat Sk 166,\nNicosia 99010",
-    "hoursLabel": "Opening Hours",
-    "hoursText": "Tuesday - Saturday: 12:00 PM - 01:00 AM\nSunday: 12:00 PM - 01:00 AM\nMonday: Closed",
+    "locationText": "Mehmet Akif Cd,\nLefkoşa 99010",
+    "openingHours": "Opening Hours",
+    "hoursText": "Tuesday - Sunday: 12:00 PM - 01:00 AM\nMonday: Closed",
     "contactLabel": "Direct Contact",
-    "contactText": "+90 533 MZA 00 00\ninfo@mazalefkosa.com",
+    "contactText": "+90 539 110 44 44\ninfo@ustacadde.com",
     "mapLoading": "Interactive Map Loading...",
     "formHeading": "Send a Message",
     "formDescription": "We would love to hear from you. Please fill out the form below.",
