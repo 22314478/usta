@@ -35,7 +35,7 @@ export function OurMenu() {
   const searchParams = useSearchParams();
   const sectionRef = useRef<HTMLElement>(null);
   const [isVisible, setIsVisible] = useState(false);
-  const [menuItems, setMenuItems] = useState<MenuItemType[]>([]);
+  const [menuItems, setMenuItems] = useState<MenuItemType[]>(getMenuItems());
   const { items, removeItem, updateQuantity, updateNote, clearCart } = useCartStore();
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [showCheckout, setShowCheckout] = useState(false);
@@ -67,6 +67,10 @@ export function OurMenu() {
         // Fallback to local if Firestore is empty
         setMenuItems(getMenuItems());
       }
+    }, (error) => {
+      console.error("Firestore menu listener error:", error);
+      // Ensure we have local items as fallback if listener fails
+      setMenuItems(getMenuItems());
     });
 
     return () => unsubscribeMenu();
