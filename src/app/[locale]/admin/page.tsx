@@ -273,37 +273,6 @@ export default function AdminPage() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const handleSyncToCloud = async () => {
-    if (!confirm("Tüm yerel menü verilerini bulut veri tabanına (Firestore) aktarmak istediğinize emin misiniz? Mevcut bulut verileri güncellenecektir.")) return;
-    
-    setLoading(true);
-    try {
-      const localMenuItems = getMenuItems();
-      const menuRef = collection(db, "menu");
-      
-      // Get all existing cloud items to avoid duplicates if possible, 
-      // but for a clean sync we might want to clear or just update.
-      // Easiest for user: replace/upsert.
-      for (const item of localMenuItems) {
-        const { id, ...itemData } = item;
-        // Use setDoc with id to preserve same IDs
-        const { setDoc } = await import("firebase/firestore");
-        await setDoc(doc(db, "menu", id), {
-          ...itemData,
-          category: itemData.category || 'food',
-          updatedAt: serverTimestamp()
-        });
-      }
-      
-      triggerSuccess("Menü başarıyla bulut veri tabanına aktarıldı! 🚀");
-    } catch (error) {
-      console.error("Sync error:", error);
-      alert("Aktarım sırasında bir hata oluştu.");
-    } finally {
-      setLoading(false);
-    }
-  };
-
   const cancelEdit = () => {
     setIsEditing(null);
     setFormData({ name: "", description: "", price: "", image: "", imageAlt: "", category: "food" });
@@ -636,22 +605,6 @@ export default function AdminPage() {
 
         {activeTab === 'site' && siteSettings && (
           <div className="space-y-12 pb-20">
-            {/* Cloud Sync Utility */}
-            <section className="bg-blue-500/10 p-8 rounded-2xl border border-blue-500/30">
-              <h2 className="text-2xl font-[family-name:var(--font-gilda)] text-blue-400 mb-4 flex items-center gap-3">
-                <FaGlobe /> Veri Senkronizasyonu
-              </h2>
-              <p className="text-white/60 mb-6 text-sm">
-                Eğer canlı sitede (Vercel) yemekler görünmüyorsa, yerel verilerinizi bulut veri tabanına aktararak eşitleyebilirsiniz.
-              </p>
-              <button
-                onClick={handleSyncToCloud}
-                className="bg-blue-500 hover:bg-blue-600 text-white font-bold px-8 py-4 rounded-xl transition-all shadow-xl shadow-blue-500/20 active:scale-95"
-              >
-                Menüyü Bulut Veri Tabanına Aktar (Sync to Cloud)
-              </button>
-            </section>
-
             {/* Hero Settings */}
             <section className="bg-[#1a1a1a] p-8 rounded-2xl border border-white/10">
               <h2 className="text-2xl font-[family-name:var(--font-gilda)] text-[#c9a962] mb-8 flex items-center gap-3">
