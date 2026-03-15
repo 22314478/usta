@@ -273,6 +273,37 @@ export default function AdminPage() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  const handleFactoryReset = async () => {
+    if (!confirm("TÜM MENÜYÜ SİLECEK ve orijinal Maza menüsünü (resimli) geri yükleyeceksiniz. Emin misiniz?")) return;
+    
+    setLoading(true);
+    try {
+      // 1. Delete all existing items in Firestore
+      const qm = await getDocs(collection(db, "menu"));
+      const batch = writeBatch(db);
+      qm.forEach((d) => batch.delete(d.ref));
+      await batch.commit();
+
+      // 2. Load defaults from menuStore
+      const localMenuItems = getMenuItems();
+      for (const item of localMenuItems) {
+        const { id, ...itemData } = item;
+        await addDoc(collection(db, "menu"), {
+          ...itemData,
+          category: itemData.category || 'food',
+          createdAt: serverTimestamp()
+        });
+      }
+      
+      triggerSuccess("Menü fabrika ayarlarına sıfırlandı! 🚀");
+    } catch (error) {
+      console.error("Reset error:", error);
+      alert("Hata oluştu.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const cancelEdit = () => {
     setIsEditing(null);
     setFormData({ name: "", description: "", price: "", image: "", imageAlt: "", category: "food" });
@@ -366,7 +397,11 @@ export default function AdminPage() {
     );
   }
 
-  const filteredItems = items.filter(item => item.category === activeTab);
+  // Robust filtering: default unknown categories to 'food'
+  const filteredItems = items.filter(item => {
+    const cat = (item.category?.toLowerCase() === 'drink') ? 'drink' : 'food';
+    return cat === activeTab;
+  });
 
   // Stats Calculations
   const paidOrders = orders.filter(o => o.status === 'paid');
@@ -605,6 +640,22 @@ export default function AdminPage() {
 
         {activeTab === 'site' && siteSettings && (
           <div className="space-y-12 pb-20">
+             {/* Factory Reset Utility */}
+             <section className="bg-red-500/10 p-8 rounded-2xl border border-red-500/30">
+              <h2 className="text-2xl font-[family-name:var(--font-gilda)] text-red-500 mb-4 flex items-center gap-3">
+                <FaHistory /> Menü Fabrika Ayarları
+              </h2>
+              <p className="text-white/60 mb-6 text-sm">
+                Tüm menüyü siler ve orijinal resimli Maza menüsünü geri yükler. (Senin eklediğin ürünler silinir!)
+              </p>
+              <button
+                onClick={handleFactoryReset}
+                className="bg-red-500 hover:bg-red-600 text-white font-bold px-8 py-4 rounded-xl transition-all shadow-xl shadow-red-500/20 active:scale-95"
+              >
+                Menüyü Sıfırla ve Orijinali Yükle
+              </button>
+            </section>
+
             {/* Hero Settings */}
             <section className="bg-[#1a1a1a] p-8 rounded-2xl border border-white/10">
               <h2 className="text-2xl font-[family-name:var(--font-gilda)] text-[#c9a962] mb-8 flex items-center gap-3">

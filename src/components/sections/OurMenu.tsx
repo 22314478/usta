@@ -56,30 +56,24 @@ export function OurMenu() {
   useEffect(() => {
     // Sync menu items from Firestore for real-time stock
     const qm = collection(db, "menu");
-    console.log("Setting up Firestore menu listener...");
     const unsubscribeMenu = onSnapshot(qm, (snap) => {
-      console.log("Firestore menu snapshot received, docs count:", snap.docs.length);
       const itemsArr: MenuItemType[] = [];
       snap.forEach(doc => {
         const data = doc.data();
         itemsArr.push({ 
           id: doc.id, 
           ...data,
-          // Robust category handling: default to 'food' if missing or unknown
           category: (data.category?.toLowerCase() === 'drink') ? 'drink' : 'food'
         } as MenuItemType);
       });
       
       if (itemsArr.length > 0) {
-        console.log("Setting menu items from Firestore. First item sample:", itemsArr[0]);
         setMenuItems(itemsArr);
       } else {
-        console.log("Firestore menu empty, using local fallback");
         setMenuItems(getMenuItems());
       }
     }, (error) => {
       console.error("Firestore menu listener error:", error);
-      // Ensure we have local items as fallback if listener fails
       setMenuItems(getMenuItems());
     });
 
@@ -88,11 +82,7 @@ export function OurMenu() {
 
   const foodItems = menuItems.filter(item => item.category === 'food');
   const drinkItems = menuItems.filter(item => item.category === 'drink');
-  
-  console.log("Rendered menu counts - Total:", menuItems.length, "Food:", foodItems.length, "Drink:", drinkItems.length);
-  if (menuItems.length > 0 && foodItems.length === 0 && drinkItems.length === 0) {
-    console.warn("DİKKAT: Ürünler var ama kategorileri eşleşmediği için gösterilmiyor! Kategoriler:", [...new Set(menuItems.map(i => i.category))]);
-  }
+
 
 
   const foodLeft = foodItems.slice(0, Math.ceil(foodItems.length / 2));
