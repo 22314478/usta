@@ -39,7 +39,7 @@ const DEFAULT_SETTINGS: SiteSettings = {
     slides: [
       {
         subheading: "Deneyim",
-        heading1: "Maza",
+        heading1: "Usta Cadde",
         heading2: "Lezzetleri",
         description: "Lefkoşa'nın kalbinde, geleneksel meze ve ızgara sanatını keşfedin.",
         image: "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -48,14 +48,14 @@ const DEFAULT_SETTINGS: SiteSettings = {
         subheading: "Tat",
         heading1: "Otantik",
         heading2: "Mutfak",
-        description: "En taze yerel malzemelerle hazırlanan eşsiz Maza tarifleri.",
+        description: "En taze yerel malzemelerle hazırlanan eşsiz Usta Cadde tarifleri.",
         image: "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?auto=compress&cs=tinysrgb&w=1600"
       },
       {
         subheading: "Miras",
         heading1: "Köklü",
         heading2: "Gelenek",
-        description: "Mutfak sanatının samimi bir sofrada buluştuğu Maza dünyasına hoş geldiniz.",
+        description: "Mutfak sanatının samimi bir sofrada buluştuğu Usta Cadde dünyasına hoş geldiniz.",
         image: "https://images.pexels.com/photos/3120807/pexels-photo-3120807.jpeg?auto=compress&cs=tinysrgb&w=1600"
       }
     ]
@@ -89,8 +89,8 @@ const DEFAULT_SETTINGS: SiteSettings = {
     bio2: "Geleneksel Kıbrıs ve Akdeniz mutfağının en seçkin örneklerini sunmak için buradayız.",
     passionTitle: "TUTKU",
     passionDesc: "Yerel lezzetlere derin takdir.",
-    title: "Maza Ekibi",
-    name: "Maza",
+    title: "Usta Cadde Ekibi",
+    name: "Usta Cadde",
     image: "https://images.pexels.com/photos/3814446/pexels-photo-3814446.jpeg?auto=compress&cs=tinysrgb&w=1000"
   }
 };

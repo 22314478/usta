@@ -109,7 +109,7 @@ export function Footer() {
             {/* Column 1: Branding + Social */}
             <div className="space-y-4">
               <h2 className="font-allura text-4xl font-normal text-white">
-                Maza
+                Usta Cadde
               </h2>
               <p className="max-w-xs text-sm leading-relaxed text-white/90">
                 {t('description')}

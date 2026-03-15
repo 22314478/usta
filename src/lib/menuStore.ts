@@ -6,7 +6,7 @@ const STORAGE_KEY = 'restaurant_menu_items';
 const DEFAULT_MENU_ITEMS: MenuItem[] = [
   {
     id: "meze-tabagi",
-    name: "Maza Özel Meze Tabağı",
+    name: "Usta Cadde Özel Meze Tabağı",
     description: "Günlük hazırlanan taze meze çeşitleri: Humus, Mutabbel, Atom ve Köpoğlu.",
     price: "₺180",
     image: "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=1000",
@@ -25,7 +25,7 @@ const DEFAULT_MENU_ITEMS: MenuItem[] = [
   {
     id: "izgara-kofte",
     name: "Izgara Köfte",
-    description: "Maza usulü baharatlı ızgara köfte, çıtır patates ve özel sosuyla.",
+    description: "Usta Cadde usulü baharatlı ızgara köfte, çıtır patates ve özel sosuyla.",
     price: "₺350",
     image: "https://images.pexels.com/photos/3120807/pexels-photo-3120807.jpeg?auto=compress&cs=tinysrgb&w=1000",
     imageAlt: "Izgara Köfte",
@@ -51,7 +51,7 @@ const DEFAULT_MENU_ITEMS: MenuItem[] = [
   },
   {
     id: "maza-salata",
-    name: "Maza Mevsim Salata",
+    name: "Usta Cadde Mevsim Salata",
     description: "Taze mevsim yeşillikleri, nar ekşisi ve sızma zeytinyağı dokunuşuyla.",
     price: "₺150",
     image: "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=1000",

@@ -58,7 +58,7 @@ export function Header() {
     <>
       <header className="absolute left-0 right-0 top-0 z-50 px-4 pt-6 sm:px-6 sm:pt-8 lg:px-8">
         <div className="mx-auto flex max-w-7xl items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 text-header-accent transition-opacity hover:opacity-80" aria-label="Maza Lefkoşa home">
+          <Link href="/" className="flex items-center gap-2 text-header-accent transition-opacity hover:opacity-80" aria-label="Usta Cadde Lefkoşa home">
             <CrestLogo />
           </Link>
 
@@ -66,7 +66,7 @@ export function Header() {
             href="/"
             className="font-allura text-4xl tracking-wide text-header-accent text-white sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Maza
+            Usta Cadde
           </Link>
 
           <div className="flex items-center gap-5">
