@@ -59,7 +59,12 @@ export function OurMenu() {
     const unsubscribeMenu = onSnapshot(qm, (snap) => {
       const items: MenuItemType[] = [];
       snap.forEach(doc => {
-        items.push({ id: doc.id, ...doc.data() } as MenuItemType);
+        const data = doc.data();
+        items.push({ 
+          id: doc.id, 
+          ...data,
+          category: data.category || 'food' // Fallback for legacy items
+        } as MenuItemType);
       });
       if (items.length > 0) {
         setMenuItems(items);

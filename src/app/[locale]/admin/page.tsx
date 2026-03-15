@@ -9,7 +9,7 @@ import { getSiteSettings, saveSiteSettings, SiteSettings } from "@/lib/siteStore
 import { FaTrash, FaEdit, FaPlus, FaSave, FaTimes, FaGlobe, FaImage, FaCalendarAlt, FaArrowLeft, FaCheck, FaBell, FaQrcode, FaPrint, FaCheckDouble, FaChartLine, FaCrown, FaHistory, FaStar } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 import { db, auth } from "@/lib/firebase";
-import { collection, query, orderBy, onSnapshot, deleteDoc, doc, Timestamp, getDoc, updateDoc, serverTimestamp } from "firebase/firestore";
+import { collection, query, orderBy, onSnapshot, deleteDoc, doc, Timestamp, getDoc, updateDoc, serverTimestamp, addDoc } from "firebase/firestore";
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut, User } from "firebase/auth";
 
 interface Reservation {
@@ -185,11 +185,22 @@ export default function AdminPage() {
       setReviews(rev);
     });
 
+    // Real-time listener for menu items
+    const qm = collection(db, "menu");
+    const unsubscribeMenu = onSnapshot(qm, (snap) => {
+      const menuArr: MenuItem[] = [];
+      snap.forEach(doc => {
+        menuArr.push({ id: doc.id, ...doc.data() } as MenuItem);
+      });
+      setItems(menuArr.length > 0 ? menuArr : getMenuItems());
+    });
+
     return () => {
       unsubscribeRes();
       unsubscribeOrders();
       unsubscribeCalls();
       unsubscribeReviews();
+      unsubscribeMenu();
     };
   }, [isAdmin]);
 
@@ -204,30 +215,45 @@ export default function AdminPage() {
     setTimeout(() => setShowSuccess(false), 3000);
   };
 
-  const handleAdd = (e: React.FormEvent) => {
+  const handleAdd = async (e: React.FormEvent) => {
     e.preventDefault();
-    const newItem = addMenuItem(formData);
-    setItems([...items, newItem]);
-    setFormData({ name: "", description: "", price: "", image: "", imageAlt: "", category: "food" });
-    setShowAddForm(false);
-    triggerSuccess(t('addSuccess'));
+    try {
+      await addDoc(collection(db, "menu"), {
+        ...formData,
+        createdAt: serverTimestamp()
+      });
+      setFormData({ name: "", description: "", price: "", image: "", imageAlt: "", category: "food" });
+      setShowAddForm(false);
+      triggerSuccess(t('addSuccess'));
+    } catch (error) {
+      console.error("Error adding menu item:", error);
+    }
   };
 
-  const handleUpdate = (e: React.FormEvent) => {
+  const handleUpdate = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!isEditing) return;
-    updateMenuItem(isEditing, formData);
-    setItems(getMenuItems());
-    setIsEditing(null);
-    setFormData({ name: "", description: "", price: "", image: "", imageAlt: "", category: "food" });
-    setShowAddForm(false);
-    triggerSuccess(t('updateSuccess'));
+    try {
+      await updateDoc(doc(db, "menu", isEditing), {
+        ...formData,
+        updatedAt: serverTimestamp()
+      });
+      setIsEditing(null);
+      setFormData({ name: "", description: "", price: "", image: "", imageAlt: "", category: "food" });
+      setShowAddForm(false);
+      triggerSuccess(t('updateSuccess'));
+    } catch (error) {
+      console.error("Error updating menu item:", error);
+    }
   };
 
-  const handleDelete = (id: string) => {
+  const handleDelete = async (id: string) => {
     if (confirm(t('deleteConfirm'))) {
-      deleteMenuItem(id);
-      setItems(items.filter((item) => item.id !== id));
+      try {
+        await deleteDoc(doc(db, "menu", id));
+      } catch (error) {
+        console.error("Error deleting menu item:", error);
+      }
     }
   };
 
@@ -393,7 +419,6 @@ export default function AdminPage() {
             <button
               onClick={() => {
                 setActiveTab('food');
-                setItems(getMenuItems()); // Force refresh items
               }}
               className={`px-10 py-3 rounded-lg transition-all ${activeTab === 'food' ? 'bg-[#c9a962] text-black font-bold shadow-lg' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
             >
@@ -402,7 +427,6 @@ export default function AdminPage() {
             <button
               onClick={() => {
                 setActiveTab('drink');
-                setItems(getMenuItems()); // Force refresh items
               }}
               className={`px-10 py-3 rounded-lg transition-all ${activeTab === 'drink' ? 'bg-[#c9a962] text-black font-bold shadow-lg' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
             >
