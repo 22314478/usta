@@ -54,7 +54,9 @@ export const useCartStore = create<CartStore>((set, get) => ({
 
 export const getCartTotal = (items: CartItem[]) => {
   return items.reduce((acc, item) => {
-    const price = parseFloat(item.price.replace(/[^0-9.]/g, '')) || 0;
+    // Robust parsing: ensure price is string before replace
+    const priceStr = String(item.price || "0");
+    const price = parseFloat(priceStr.replace(/[^0-9.]/g, '')) || 0;
     return acc + price * item.quantity;
   }, 0);
 };
