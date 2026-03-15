@@ -65,12 +65,13 @@ export function OurMenu() {
         itemsArr.push({ 
           id: doc.id, 
           ...data,
-          category: data.category || 'food' // Fallback for legacy items
+          // Robust category handling: default to 'food' if missing or unknown
+          category: (data.category?.toLowerCase() === 'drink') ? 'drink' : 'food'
         } as MenuItemType);
       });
       
       if (itemsArr.length > 0) {
-        console.log("Setting menu items from Firestore:", itemsArr.length);
+        console.log("Setting menu items from Firestore. First item sample:", itemsArr[0]);
         setMenuItems(itemsArr);
       } else {
         console.log("Firestore menu empty, using local fallback");
@@ -89,6 +90,10 @@ export function OurMenu() {
   const drinkItems = menuItems.filter(item => item.category === 'drink');
   
   console.log("Rendered menu counts - Total:", menuItems.length, "Food:", foodItems.length, "Drink:", drinkItems.length);
+  if (menuItems.length > 0 && foodItems.length === 0 && drinkItems.length === 0) {
+    console.warn("DİKKAT: Ürünler var ama kategorileri eşleşmediği için gösterilmiyor! Kategoriler:", [...new Set(menuItems.map(i => i.category))]);
+  }
+
 
   const foodLeft = foodItems.slice(0, Math.ceil(foodItems.length / 2));
   const foodRight = foodItems.slice(Math.ceil(foodItems.length / 2));
