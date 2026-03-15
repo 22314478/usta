@@ -178,15 +178,15 @@ export function OurMenu() {
 
     const formData = new FormData(e.currentTarget);
     const orderData = {
-      customerName: formData.get('name'),
-      tableNumber: formData.get('table'),
+      customerName: String(formData.get('name') || ""),
+      tableNumber: String(formData.get('table') || ""),
       items: items.map(i => ({
-        id: i.id,
-        name: i.name,
-        quantity: i.quantity,
-        price: i.price,
-        image: i.image,
-        note: i.note
+        id: String(i.id || ""),
+        name: String(i.name || ""),
+        quantity: Number(i.quantity || 1),
+        price: String(i.price || ""),
+        image: String(i.image || ""),
+        note: String(i.note || "")
       })),
       total: cartTotal.toFixed(2),
       status: 'new',
