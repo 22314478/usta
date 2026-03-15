@@ -218,8 +218,17 @@ export default function AdminPage() {
   const handleAdd = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
+      const sanitizedData = {
+        name: formData.name || "",
+        description: formData.description || "",
+        price: formData.price || "",
+        image: formData.image || "",
+        imageAlt: formData.imageAlt || "",
+        category: formData.category || "food",
+        stock: formData.stock ?? null
+      };
       await addDoc(collection(db, "menu"), {
-        ...formData,
+        ...sanitizedData,
         createdAt: serverTimestamp()
       });
       setFormData({ name: "", description: "", price: "", image: "", imageAlt: "", category: "food" });
@@ -234,8 +243,17 @@ export default function AdminPage() {
     e.preventDefault();
     if (!isEditing) return;
     try {
+      const sanitizedData = {
+        name: formData.name || "",
+        description: formData.description || "",
+        price: formData.price || "",
+        image: formData.image || "",
+        imageAlt: formData.imageAlt || "",
+        category: formData.category || "food",
+        stock: formData.stock ?? null
+      };
       await updateDoc(doc(db, "menu", isEditing), {
-        ...formData,
+        ...sanitizedData,
         updatedAt: serverTimestamp()
       });
       setIsEditing(null);
@@ -261,12 +279,12 @@ export default function AdminPage() {
   const startEdit = (item: MenuItem) => {
     setIsEditing(item.id);
     setFormData({
-      name: item.name,
-      description: item.description,
-      price: item.price,
-      image: item.image,
-      imageAlt: item.imageAlt,
-      category: item.category,
+      name: item.name || "",
+      description: item.description || "",
+      price: item.price || "",
+      image: item.image || "",
+      imageAlt: item.imageAlt || "",
+      category: item.category || "food",
       stock: item.stock ?? null,
     });
     setShowAddForm(true);
