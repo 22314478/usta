@@ -30,8 +30,8 @@ const barlowCondensed = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Maza Lefkoşa | Geleneksel Lezzet & Modern Dokunuş",
-  description: "Lefkoşa'nın kalbinde unutulmaz bir gastronomi deneyimi. Taze mezeler, ızgara çeşitleri ve Maza'nın eşsiz atmosferiyle tanışın.",
+  title: "Usta Cadde Lefkoşa | Geleneksel Lezzet & Modern Dokunuş",
+  description: "Lefkoşa'nın kalbinde unutulmaz bir gastronomi deneyimi. Taze mezeler, ızgara çeşitleri ve Usta Cadde'nin eşsiz atmosferiyle tanışın.",
 };
 
 export function generateStaticParams() {
