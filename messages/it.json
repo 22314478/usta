@@ -1,0 +1,295 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "menu": "Menu",
+    "events": "Eventi",
+    "blog": "Blog",
+    "contact": "Contattaci",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu"
+  },
+  "hero": {
+    "slide1": {
+      "subheading": "Esperienza",
+      "heading1": "Italiano",
+      "heading2": "Ristorante",
+      "description": "Scopri un'esperienza gastronomica che ti trasporta nel cuore dell'Italia."
+    },
+    "slide2": {
+      "subheading": "Gusto",
+      "heading1": "Cucina",
+      "heading2": "Autentica",
+      "description": "Piatti artigianali da ricette tradizionali e i migliori ingredienti di stagione."
+    },
+    "slide3": {
+      "subheading": "Eredità",
+      "heading1": "Radicato nella",
+      "heading2": "Tradizione",
+      "description": "Dove generazioni di arte culinaria incontrano il calore dell'ospitalità italiana."
+    },
+    "viewMenu": "Vedi Menu"
+  },
+  "features": {
+    "feature1": {
+      "line1": "CUCINA",
+      "line2": "AUTENTICA"
+    },
+    "feature2": {
+      "line1": "INGREDIENTI",
+      "line2": "FRESCHI E LOCALI"
+    },
+    "feature3": {
+      "line1": "ATMOSFERA",
+      "line2": "ACCOGLIENTE"
+    },
+    "feature4": {
+      "line1": "SERVIZIO",
+      "line2": "CALOROSO"
+    }
+  },
+  "story": {
+    "heading": "La Nostra Storia",
+    "subtitle": "Dal 1982",
+    "block1": {
+      "heading": "Italia",
+      "description": "I visitatori sono attratti dalla sua affascinante campagna, dai vigneti di fama mondiale e dal profondo legame con l'Italia."
+    },
+    "block2": {
+      "heading": "Reinterpretato",
+      "description": "Reinterpretando ricette classiche, gli chef portano un tocco contemporaneo ai piatti amati."
+    },
+    "block3": {
+      "heading": "Riunione",
+      "description": "Dove amici e famiglia si riuniscono a tavola, circondati dal calore dell'ospitalità italiana."
+    }
+  },
+  "chef": {
+    "heading": "Il Nostro Chef",
+    "subtitle": "ESPERTO",
+    "quote": "Il cibo è il linguaggio universale dell'umanità.",
+    "bio1": "Il rinomato Chef Antonio Carbone porta decenni di esperienza culinaria e una passione per la cucina italiana a Figaro.",
+    "bio2": "Con un background stellato Michelin, ha creato un menu che celebra la ricchezza e la diversità della gastronomia italiana.",
+    "passionTitle": "PASSIONE",
+    "passionDesc": "Profondo apprezzamento per i sapori italiani.",
+    "title": "Chef Esecutivo",
+    "name": "Antonio Carbone"
+  },
+  "wine": {
+    "heading": "Selezione Vini",
+    "subtitle": "Collezione Curata",
+    "description": "Esplora i nostri vini accuratamente selezionati dai rinomati vigneti mediterranei.",
+    "wines": {
+      "barolo": {
+        "name": "Barolo",
+        "price": "€85",
+        "description": "Rosso corposo del Piemonte con note di ciliegia, rosa e tartufo."
+      },
+      "barbaresco": {
+        "name": "Barbaresco",
+        "price": "€78",
+        "description": "Elegante Nebbiolo con tannini raffinati e aromi floreali."
+      },
+      "chianti": {
+        "name": "Chianti Classico",
+        "price": "€62",
+        "description": "Classico rosso toscano con ciliegia brillante e note terrose."
+      },
+      "prosecco": {
+        "name": "Prosecco",
+        "price": "€48",
+        "description": "Bianco frizzante con note croccanti di mela e pera."
+      },
+      "soave": {
+        "name": "Soave",
+        "price": "€52",
+        "description": "Vino bianco rinfrescante con sapori di agrumi e mandorla."
+      }
+    }
+  },
+  "reviews": {
+    "heading": "Recensioni Clienti",
+    "subtitle": "Cosa Dicono i Nostri Ospiti",
+    "customers": {
+      "christian": {
+        "name": "Christian Cooper",
+        "text": "Italiano ha superato le mie aspettative! Il personale era incredibilmente attento e cordiale, assicurandosi che avessimo tutto ciò di cui avevamo bisogno. La Bistecca era cotta proprio come piace a me, e il tiramisù era il migliore che abbia mai mangiato. Il servizio, combinato con il cibo delizioso, ha reso la serata indimenticabile."
+      },
+      "emily": {
+        "name": "Emily Hughes",
+        "text": "Un'esperienza culinaria davvero magica. Dal momento in cui siamo entrati, ci siamo sentiti come in famiglia. La pasta era fresca e perfettamente condita, e i consigli sull'abbinamento dei vini erano perfetti. Torneremo sicuramente."
+      },
+      "alexander": {
+        "name": "Alexander Hayes",
+        "text": "Cucina italiana eccezionale in un ambiente elegante. L'Osso Buco era tenero e saporito, e la selezione di dessert era impressionante. L'attenzione ai dettagli sia nel cibo che nel servizio ha reso la nostra cena di anniversario indimenticabile."
+      }
+    }
+  },
+  "carousel": {
+    "heading": "Ingredienti di Qualità",
+    "subtitle": "AUTENTICO",
+    "description": "Offriamo un viaggio culinario squisito, con piatti autentici realizzati con i migliori ingredienti regionali.",
+    "slide1": {
+      "title": "Sapori Autentici",
+      "description": "Ogni piatto racconta una storia di tradizione e passione. Dalla nostra cucina alla vostra tavola, vivete il vero gusto dell'Italia."
+    },
+    "slide2": {
+      "title": "Vino e Cena",
+      "description": "I nostri sommelier hanno selezionato vini che completano perfettamente ogni portata. Brindisi alla dolce vita."
+    },
+    "slide3": {
+      "title": "Ingredienti di Stagione",
+      "description": "Ci procuriamo i migliori prodotti e ingredienti di stagione per portarvi piatti che celebrano il meglio di ogni momento."
+    },
+    "slide4": {
+      "title": "Una Serata Indimenticabile",
+      "description": "Che si tratti di una cena romantica o di una celebrazione con i propri cari, il nostro ristorante prepara il palcoscenico per momenti memorabili."
+    },
+    "slide5": {
+      "title": "Realizzato con Cura",
+      "description": "I nostri chef mettono cuore e anima in ogni piatto. Scopri perché gli ospiti tornano ancora e ancora."
+    }
+  },
+  "homeBlog": {
+    "heading": "Risorse e Articoli",
+    "subtitle": "Ultime Notizie",
+    "description": "Comprendere le regioni, i sapori e i migliori abbinamenti per i vini italiani.",
+    "readMore": "Leggi di Più"
+  },
+  "dolceVita": {
+    "subtitle": "LA DOLCE VITA",
+    "heading": "Amore per il Cibo Italiano. Mamma Mia!",
+    "description": "Dai classici piatti di pasta alle deliziose specialità di pesce, il nostro menu mette in mostra i sapori vibranti e le ricche tradizioni della cucina italiana."
+  },
+  "menu": {
+    "heading": "Il Nostro Menu",
+    "subtitle": "AL DENTE",
+    "items": {
+      "bolognese": {
+        "name": "Bolognese",
+        "description": "Spaghetti classici conditi con un saporito ragù di carne cotto lentamente e Parmigiano.",
+        "price": "€64"
+      },
+      "carbonara": {
+        "name": "Carbonara",
+        "description": "Piatto romano classico con pancetta, uova, Pecorino Romano e pepe nero.",
+        "price": "€58"
+      },
+      "calamari": {
+        "name": "Calamari",
+        "description": "Calamari fritti croccanti e dorati serviti con marinara e spicchi di limone.",
+        "price": "€39"
+      },
+      "bistecca": {
+        "name": "Bistecca",
+        "description": "Bistecca succosa in una ricca salsa cremosa al pepe verde e brandy.",
+        "price": "€72"
+      },
+      "lasagna": {
+        "name": "Lasagna",
+        "description": "Strati di pasta, ragù di carne cotto lentamente, besciamella e Parmigiano.",
+        "price": "€78"
+      },
+      "cacciatora": {
+        "name": "Cacciatora",
+        "description": "Una variante di pesce con gamberi, calamari e cozze in una fragrante salsa di pomodoro e vino bianco.",
+        "price": "€62"
+      },
+      "branzino": {
+        "name": "Branzino",
+        "description": "Branzino mediterraneo intero al forno con erbe fresche, aglio e olio d'oliva.",
+        "price": "€54"
+      },
+      "ossoBuco": {
+        "name": "Osso Buco",
+        "description": "Un classico italiano senza tempo, brasato alla perfezione e abbinato a verdure di stagione.",
+        "price": "€67"
+      }
+    }
+  },
+  "booking": {
+    "heading": "Prenota un Tavolo",
+    "subtitle": "Contattaci",
+    "description": "Celebra i sapori senza tempo dell'Italia, dove ogni pasto è un capolavoro.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "date": "Data",
+      "guests": "Ospiti",
+      "submit": "Prenota"
+    }
+  },
+  "footer": {
+    "description": "Vivi l'essenza del Mediterraneo al Kyma Cyprus",
+    "explore": "Esplora",
+    "contact": "Contatto",
+    "address": "28 Archbishop Makarios III Ave, Limassol, Cipro, 3035",
+    "language": "Lingua",
+    "copyright": "© Kyma Cyprus. Tutti i diritti riservati.",
+    "builtBy": "Creato da"
+  },
+  "events": {
+    "subtitle": "Riunioni e Celebrazioni",
+    "heading": "Eventi Indimenticabili",
+    "description": "Da degustazioni intime a grandi celebrazioni, Kyma Cyprus offre lo scenario perfetto per i vostri momenti più preziosi.",
+    "event1": {
+      "title": "Serata Vini Mediterranei",
+      "date": "Ogni Giovedì",
+      "time": "19:00 - 22:00",
+      "description": "Un viaggio esclusivo di degustazione attraverso i migliori vigneti di Cipro, abbinato a formaggi artigianali e antipasti costieri.",
+      "tag": "Scelta del Sommelier"
+    },
+    "event2": {
+      "title": "Jazz al Tramonto e Frutti di Mare",
+      "date": "Sabato",
+      "time": "18:00 - 23:00",
+      "description": "Vivi la magia del jazz dal vivo sullo sfondo del tramonto di Paphos, con i nostri piatti di pesce caratteristici.",
+      "tag": "Atmosfera"
+    },
+    "event3": {
+      "title": "Masterclass Culinaria",
+      "date": "Prima Domenica del Mese",
+      "time": "11:00 - 14:00",
+      "description": "Unisciti al nostro Chef Esecutivo per una sessione di cucina intima, imparando i segreti della fusione tradizionale cipriota-mediterranea.",
+      "tag": "Workshop"
+    },
+    "privateHeading": "Ospita la Tua Occasione Privata",
+    "privateDescription": "Che si tratti di una cena di prova intima, un anniversario importante o un ritiro aziendale, il nostro team dedicato agli eventi creerà un'esperienza su misura per la tua visione.",
+    "capacity": "50+",
+    "capacityLabel": "Capacità Ospiti",
+    "customMenu": "Personalizzato",
+    "customMenuLabel": "Design del Menu",
+    "buyout": "Completo",
+    "buyoutLabel": "Affitto Completo",
+    "enquire": "Richiedi Ora",
+    "reserve": "Prenota il Tuo Posto"
+  },
+  "contact": {
+    "subtitle": "Mettiti in Contatto",
+    "heading": "Contattaci",
+    "visitHeading": "Visita il Nostro Santuario",
+    "locationLabel": "Posizione",
+    "locationText": "12 Poseidonos Avenue,\n8042 Paphos, Cipro",
+    "hoursLabel": "Orari di Apertura",
+    "hoursText": "Lunedì - Domenica: 12:00 - 23:00\nHappy Hour: 16:00 - 18:00",
+    "contactLabel": "Contatto Diretto",
+    "contactText": "+357 26 000000\nexperience@kymacyprus.com",
+    "mapLoading": "Caricamento Mappa Interattiva...",
+    "formHeading": "Invia un Messaggio",
+    "formDescription": "Ci piacerebbe sentirti. Compila il modulo qui sotto.",
+    "firstName": "Nome",
+    "firstNamePlaceholder": "Es. Alessandro",
+    "lastName": "Cognome",
+    "lastNamePlaceholder": "Es. Rossi",
+    "email": "Indirizzo Email",
+    "emailPlaceholder": "alessandro@example.com",
+    "subject": "Oggetto",
+    "subjectReservation": "Richiesta Prenotazione",
+    "subjectEvent": "Evento Privato",
+    "subjectGeneral": "Domanda Generale",
+    "subjectFeedback": "Feedback",
+    "message": "Messaggio",
+    "messagePlaceholder": "Raccontaci di più sulla tua richiesta...",
+    "submit": "Invia Messaggio"
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "menu": "Menu",
+    "events": "Events",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "slide1": {
+      "subheading": "Опыт",
+      "heading1": "Maza",
+      "heading2": "Вкусы",
+      "description": "Откройте для себя гастрономический опыт в самом сердце Лефкоши."
+    },
+    "slide2": {
+      "subheading": "Вкус",
+      "heading1": "Оригинальная",
+      "heading2": "Кухня",
+      "description": "Блюда ручной работы по проверенным временем рецептам из лучших местных ингредиентов."
+    },
+    "slide3": {
+      "subheading": "Наследие",
+      "heading1": "Верность",
+      "heading2": "Традициям",
+      "description": "Где поколения кулинарного искусства встречаются с теплотой гостеприимства Maza."
+    },
+    "viewMenu": "Посмотреть меню"
+  },
+  "features": {
+    "feature1": {
+      "line1": "AUTHENTIC",
+      "line2": "CUISINE"
+    },
+    "feature2": {
+      "line1": "FRESH & LOCAL",
+      "line2": "INGREDIENTS"
+    },
+    "feature3": {
+      "line1": "INVITING",
+      "line2": "ATMOSPHERE"
+    },
+    "feature4": {
+      "line1": "WELCOMING",
+      "line2": "SERVICE"
+    }
+  },
+  "story": {
+    "heading": "Our Story",
+    "subtitle": "Since 1982",
+    "block1": {
+      "heading": "Italy",
+      "description": "Visitors are drawn to its charming countryside, world-renowned vineyards, and the deep connection to Italy."
+    },
+    "block2": {
+      "heading": "Reimagined",
+      "description": "Reimagining classic recipes, chefs bring a contemporary twist to beloved staples."
+    },
+    "block3": {
+      "heading": "Gathering",
+      "description": "Where friends and family come together at the table, surrounded by the warmth of Italian hospitality."
+    }
+  },
+  "chef": {
+    "heading": "Our Chef",
+    "subtitle": "SEASONED",
+    "quote": "Food is the universal language of mankind.",
+    "bio1": "Команда Maza Lefkoşa привносит многолетний кулинарный опыт и страсть к местным вкусам на ваш стол.",
+    "bio2": "Мы здесь, чтобы предложить изысканные блюда традиционной кипрской и средиземноморской кухни.",
+    "passionTitle": "СТРАСТЬ",
+    "passionDesc": "Глубокое уважение к местным вкусам.",
+    "title": "Команда Maza",
+    "name": "Maza"
+  },
+  "wine": {
+    "heading": "Wine Selection",
+    "subtitle": "Curated Collection",
+    "description": "Explore our carefully selected wines from renowned Mediterranean vineyards.",
+    "wines": {
+      "barolo": {
+        "name": "Barolo",
+        "price": "$85",
+        "description": "Full-bodied red from Piedmont with notes of cherry, rose, and truffle."
+      },
+      "barbaresco": {
+        "name": "Barbaresco",
+        "price": "$78",
+        "description": "Elegant Nebbiolo with refined tannins and floral aromatics."
+      },
+      "chianti": {
+        "name": "Chianti Classico",
+        "price": "$62",
+        "description": "Classic Tuscan red with bright cherry and earthy undertones."
+      },
+      "prosecco": {
+        "name": "Prosecco",
+        "price": "$48",
+        "description": "Sparkling white with crisp apple and pear notes."
+      },
+      "soave": {
+        "name": "Soave",
+        "price": "$52",
+        "description": "Refreshing white wine with citrus and almond flavors."
+      }
+    }
+  },
+  "reviews": {
+    "heading": "Отзывы клиентов",
+    "subtitle": "Что говорят наши гости",
+    "customers": {
+      "christian": {
+        "name": "Кристиан Купер",
+        "text": "Maza превзошла все мои ожидания! Персонал был невероятно внимательным и дружелюбным. Мезе были просто великолепны, а атмосфера сделала наш вечер незабываемым. Обязательно вернемся!"
+      },
+      "emily": {
+        "name": "Эмили Хьюз",
+        "text": "По-настояelijk волшебный ужин. С того момента, как мы вошли, мы почувствовали себя как дома. Блюда были свежими и идеально приправленными. Очень рекомендую это место в Лефкоше!"
+      },
+      "alexander": {
+        "name": "Александр Хейс",
+        "text": "Исключительная кухня в элегантной обстановке. Внимание к деталям как в еде, так и в обслуживании сделало наш юбилейный ужин незабываемым. Настоящая жемчужина Кипра."
+      }
+    }
+  },
+  "carousel": {
+    "heading": "Качественные ингредиенты",
+    "subtitle": "АУТЕНТИЧНО",
+    "description": "Мы предлагаем изысканное кулинарное путешествие с аутентичными блюдами, приготовленными из лучших местных ингредиентов.",
+    "slide1": {
+      "title": "Настоящие вкусы",
+      "description": "Каждое блюдо рассказывает историю традиций и страсти. От нашей кухни до вашего стола — почувствуйте настоящий вкус Maza."
+    },
+    "slide2": {
+      "title": "Вино и Ужин",
+      "description": "Наши сомелье отобрали вина, которые идеально дополняют каждое блюдо. Поднимите бокал за хорошую жизнь."
+    },
+    "slide3": {
+      "title": "Сезонные ингредиенты",
+      "description": "Мы закупаем лучшие сезонные продукты, чтобы радовать вас блюдами, отражающими лучшее в каждом моменте."
+    },
+    "slide4": {
+      "title": "Незабываемый вечер",
+      "description": "Будь то романтический ужин или праздник с близкими, наш ресторан создает идеальную атмосферу."
+    },
+    "slide5": {
+      "title": "Сделано с любовью",
+      "description": "Наши повара вкладывают душу в каждую тарелку. Узнайте, почему гости возвращаются к нам снова и снова."
+    }
+  },
+  "homeBlog": {
+    "heading": "Resources & Articles",
+    "subtitle": "Latest News",
+    "description": "Understanding the regions, flavors, and best pairings for Italian wines.",
+    "readMore": "Read More"
+  },
+  "dolceVita": {
+    "subtitle": "ПУТЕШЕСТВИЕ ВКУСА",
+    "heading": "Любовь к хорошей еде. В стиле Maza!",
+    "description": "От классических кебабов до изысканных мезе, наше меню отражает яркие вкусы и богатые традиции Кипра."
+  },
+  "menu": {
+    "heading": "Наше меню",
+    "subtitle": "ПРАЗДНИК ВКУСА",
+    "foods": "Блюда",
+    "drinks": "Напитки",
+    "items": {
+      "meze-tabagi": {
+        "name": "Ассорти мезе Маза",
+        "description": "Ежедневно свежеприготовленные мезе: Хумус, Мутаббаль, Атом и Кёпоглу.",
+        "price": "₺180"
+      },
+      "kuzu-sis": {
+        "name": "Шиш-кебаб из баранины",
+        "description": "Специально маринованная нежная баранина с обжаренным перцем и рисом.",
+        "price": "₺450"
+      },
+      "izgara-kofte": {
+        "name": "Котлеты на гриле (Кёфте)",
+        "description": "Котлеты на гриле в стиле Маза, с хрустящим картофелем и специальным соусом.",
+        "price": "₺350"
+      },
+      "findik-lahmacun": {
+        "name": "Мини-лахмаджун",
+        "description": "Хрустящие мини-лахмаджуны из каменной печи (4 шт).",
+        "price": "₺120"
+      },
+      "tavuk-sarma": {
+        "name": "Куриный рулет",
+        "description": "Куриный рулет под специальным соусом, со средиземноморской зеленью и гарниром.",
+        "price": "₺320"
+      },
+      "maza-salata": {
+        "name": "Сезонный салат Маза",
+        "description": "Свежая сезонная зелень с нотками гранатового сиропа и оливкового масла extra virgin.",
+        "price": "₺150"
+      },
+      "deniz-borulcesi": {
+        "name": "Морская спаржа",
+        "description": "Свежее мезе из морской спаржи с чесноком и оливковым маслом.",
+        "price": "₺140"
+      },
+      "atom-meze": {
+        "name": "Атом",
+        "description": "Процеженный йогурт с острым албанским перцем и растопленным сливочным маслом.",
+        "price": "₺130"
+      },
+      "coca-cola": {
+        "name": "Кока-Кола",
+        "description": "Холодный и освежающий классический вкус.",
+        "price": "₺45"
+      },
+      "fanta": {
+        "name": "Фанта",
+        "description": "Апельсиновый газированный напиток.",
+        "price": "₺45"
+      },
+      "sprite": {
+        "name": "Спрайт",
+        "description": "Освежающий газированный напиток со вкусом лимона и лайма.",
+        "price": "₺45"
+      },
+      "ayran": {
+        "name": "Айран",
+        "description": "Традиционный ледяной айран из цельномолочного йогурта.",
+        "price": "₺35"
+      },
+      "salgam": {
+        "name": "Шалгам (сок репы)",
+        "description": "Сок репы в стиле Аданы, острый или неострый.",
+        "price": "₺40"
+      },
+      "limonata": {
+        "name": "Домашний лимонад",
+        "description": "Со свежевыжатым лимоном и листьями мяты.",
+        "price": "₺55"
+      },
+      "portakal-suyu": {
+        "name": "Свежий апельсиновый сок",
+        "description": "100% натуральный ежедневно выжатый сок.",
+        "price": "₺65"
+      },
+      "su": {
+        "name": "Родниковая вода",
+        "description": "Природная минеральная вода в стеклянной бутылке (330 мл).",
+        "price": "₺25"
+      },
+      "turk-kahvesi": {
+        "name": "Турецкий кофе",
+        "description": "Приготовлен на углях, подается с рахат-лукумом.",
+        "price": "₺50"
+      },
+      "cay": {
+        "name": "Заваренный чай",
+        "description": "Свежезаваренный чай из Ризе.",
+        "price": "₺20"
+      }
+    }
+  },
+  "booking": {
+    "heading": "Забронировать столик",
+    "subtitle": "Свяжитесь с нами",
+    "description": "Отпразднуйте вечные вкусы Кипра, где каждое блюдо — шедевр.",
+    "form": {
+      "name": "Имя",
+      "email": "Эл. почта",
+      "date": "Дата",
+      "guests": "Кол-во гостей",
+      "submit": "Забронировать",
+      "success": "Ваше бронирование успешно получено! Спасибо. 👋",
+      "error": "Произошла ошибка. Пожалуйста, попробуйте еще раз позже."
+    }
+  },
+  "footer": {
+    "description": "Ощутите суть вкуса и традиций в Maza Lefkoşa",
+    "explore": "Исследовать",
+    "contact": "Контакт",
+    "phone": "+90 533 MZA 00 00",
+    "email": "info@mazalefkosa.com",
+    "address": "Tanzimat Sk 166, Lefkoşa 99010",
+    "language": "Язык",
+    "copyright": "© Maza Lefkoşa. Все права защищены.",
+    "builtBy": "Built by"
+  },
+  "events": {
+    "subtitle": "Встречи и Празднования",
+    "heading": "Незабываемые События",
+    "description": "От уютных дегустаций вин до грандиозных празднований, Maza Lefkoşa станет идеальным фоном для ваших самых дорогих моментов.",
+    "event1": {
+      "title": "Средиземноморский винный вечер",
+      "date": "Каждый четверг",
+      "time": "19:00 - 22:00",
+      "description": "Эксклюзивное дегустационное путешествие по лучшим виноградникам региона в сочетании с изысканными мезе.",
+      "tag": "Выбор сомелье"
+    },
+    "event2": {
+      "title": "Джаз на закате",
+      "date": "Суббота",
+      "time": "18:00 - 23:00",
+      "description": "Испытайте магию живого джаза на фоне заката в Лефкоше с нашими фирменными блюдами.",
+      "tag": "Атмосфера"
+    },
+    "event3": {
+      "title": "Кулинарный мастер-класс",
+      "date": "Первое воскресенье месяца",
+      "time": "11:00 - 14:00",
+      "description": "Присоединяйтесь к нашей команде поваров для интимного занятия по секретам традиционной кухни Кипра.",
+      "tag": "Мастер-класс"
+    },
+    "privateHeading": "Хозяин вашего частного мероприятия",
+    "privateDescription": "Будь то юбилей, корпоратив или семейное торжество, наша команда создаст опыт, идеально соответствующий вашему видению.",
+    "capacity": "50+",
+    "capacityLabel": "Вместимость",
+    "customMenu": "Свой",
+    "customMenuLabel": "Дизайн меню",
+    "buyout": "Полная",
+    "buyoutLabel": "Аренда зала",
+    "enquire": "Узнать больше",
+    "reserve": "Забронировать место"
+  },
+  "contact": {
+    "subtitle": "Свяжитесь с нами",
+    "heading": "Контакты",
+    "visitHeading": "Посетите нас",
+    "locationLabel": "Адрес",
+    "locationText": "Tanzimat Sk 166,\nLefkoşa 99010",
+    "hoursLabel": "Часы работы",
+    "hoursText": "Вторник - Суббота: 12:00 - 01:00\nВоскресенье: 12:00 - 01:00\nПонедельник: Закрыто",
+    "contactLabel": "Прямая связь",
+    "contactText": "+90 533 MZA 00 00\ninfo@mazalefkosa.com",
+    "mapLoading": "Загрузка карты...",
+    "formHeading": "Напишите нам",
+    "formDescription": "Мы будем рады услышать вас. Пожалуйста, заполните форму ниже.",
+    "firstName": "Имя",
+    "firstNamePlaceholder": "Напр. Александр",
+    "lastName": "Фамилия",
+    "lastNamePlaceholder": "Напр. Иванов",
+    "email": "Эл. почта",
+    "emailPlaceholder": "alexander@example.com",
+    "subject": "Тема",
+    "subjectReservation": "Бронирование",
+    "subjectEvent": "Мероприятие",
+    "subjectGeneral": "Общий вопрос",
+    "subjectFeedback": "Отзыв",
+    "message": "Сообщение",
+    "messagePlaceholder": "Расскажите нам подробнее...",
+    "submit": "Отправить"
+  },
+  "admin": {
+    "title": "Панель администратора",
+    "subtitle": "Управление меню и обновление цен",
+    "addNew": "Добавить новое",
+    "foods": "Блюда",
+    "drinks": "Напитки",
+    "siteSettings": "Настройки сайта",
+    "reservations": "Бронирования",
+    "edit": "Редактировать",
+    "add": "Добавить",
+    "food": "Блюдо",
+    "drink": "Напиток",
+    "name": "Название",
+    "description": "Описание",
+    "price": "Цена",
+    "image": "URL изображения",
+    "imageAlt": "Альтернативный текст",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "deleteConfirm": "Вы уверены, что хотите удалить этот пункт?",
+    "addSuccess": "Новое блюдо успешно добавлено! 🎉",
+    "updateSuccess": "Блюдо успешно обновлено! ✅",
+    "placeholderName": "Напр.: Спагетти Болоньезе или Кока-Кола",
+    "placeholderDesc": "Краткая информация о блюде...",
+    "category": "Категория",
+    "imageAltLabel": "Альтернативный текст (SEO)",
+    "imageAltPlaceholder": "Напр.: холодный напиток",
+    "imageUrlLabel": "URL изображения (внешняя ссылка)",
+    "imageUrlPlaceholder": "https://example.com/image.jpg",
+    "imagePreview": "Предпросмотр изображения",
+    "imageLoadError": "Изображение не удалось загрузить",
+    "update": "Обновить",
+    "heroSettings": "Hero-слайды (Анонс)",
+    "slide": "Слайд",
+    "subheading": "Подзаголовок",
+    "heading1": "Заголовок 1",
+    "heading2": "Заголовок 2",
+    "saveAll": "Сохранить все настройки",
+    "siteSettingsSuccess": "Настройки сайта успешно сохранены! 🚀",
+    "noItems": "В этой категории пока ничего нет.",
+    "successTitle": "Процесс завершен!",
+    "ok": "ОК",
+    "login": "Войти",
+    "logout": "Выйти",
+    "email": "Эл. почта",
+    "password": "Пароль",
+    "loginError": "Ошибка входа. Пожалуйста, проверьте свои учетные данные.",
+    "accessDenied": "Доступ запрещен. Только администраторы могут войти.",
+    "resName": "Имя",
+    "resEmail": "Эл. почта",
+    "resDate": "Дата",
+    "resGuests": "Гостей",
+    "resStatus": "Статус",
+    "resDelete": "Удалить",
+    "resEmpty": "Бронирований пока нет.",
+    "resConfirmDelete": "Вы уверены, что хотите удалить это бронирование?",
+    "orders": "Заказы",
+    "orderTable": "Стол",
+    "orderItems": "Товары",
+    "orderTotal": "Итого",
+    "orderStatus": "Статус",
+    "orderEmpty": "Заказов пока нет.",
+    "orderDelete": "Удалить заказ",
+    "orderConfirmDelete": "Вы уверены, что хотите удалить этот заказ?"
+  },
+  "cart": {
+    "title": "Ваш заказ",
+    "add": "В корзину",
+    "empty": "Ваш список заказов пуст.",
+    "checkout": "Оформить заказ",
+    "total": "Итого",
+    "tableNumber": "Номер стола",
+    "customerName": "Имя",
+    "placeOrder": "Оформить заказ",
+    "success": "Ваш заказ получен! Приятного аппетита. 🥘",
+    "error": "Произошла ошибка при оформлении заказа.",
+    "items": "Товары"
+  }
+}

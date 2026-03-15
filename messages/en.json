@@ -1,0 +1,429 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "menu": "Menu",
+    "events": "Events",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "slide1": {
+      "subheading": "Experience",
+      "heading1": "Maza",
+      "heading2": "Lefkoşa",
+      "description": "Discover a gastronomic experience that transports you to the heart of Lefkoşa."
+    },
+    "slide2": {
+      "subheading": "Taste",
+      "heading1": "Authentic",
+      "heading2": "Cuisine",
+      "description": "Handcrafted dishes from time-honored recipes and the finest local ingredients."
+    },
+    "slide3": {
+      "subheading": "Heritage",
+      "heading1": "Rooted in",
+      "heading2": "Tradition",
+      "description": "Where generations of culinary artistry meet the warmth of Maza hospitality."
+    },
+    "viewMenu": "View Menu"
+  },
+  "features": {
+    "feature1": {
+      "line1": "AUTHENTIC",
+      "line2": "CUISINE"
+    },
+    "feature2": {
+      "line1": "FRESH & LOCAL",
+      "line2": "INGREDIENTS"
+    },
+    "feature3": {
+      "line1": "INVITING",
+      "line2": "ATMOSPHERE"
+    },
+    "feature4": {
+      "line1": "WELCOMING",
+      "line2": "SERVICE"
+    }
+  },
+  "story": {
+    "heading": "Our Story",
+    "subtitle": "Since 1982",
+    "block1": {
+      "heading": "Italy",
+      "description": "Visitors are drawn to its charming countryside, world-renowned vineyards, and the deep connection to Italy."
+    },
+    "block2": {
+      "heading": "Reimagined",
+      "description": "Reimagining classic recipes, chefs bring a contemporary twist to beloved staples."
+    },
+    "block3": {
+      "heading": "Gathering",
+      "description": "Where friends and family come together at the table, surrounded by the warmth of Italian hospitality."
+    }
+  },
+  "chef": {
+    "heading": "Our Chef",
+    "subtitle": "SEASONED",
+    "quote": "Food is the universal language of mankind.",
+    "bio1": "The Maza Lefkoşa team brings years of culinary expertise and a passion for local flavors to your table.",
+    "bio2": "We are here to offer the most exquisite examples of traditional Cypriot and Mediterranean cuisine.",
+    "passionTitle": "PASSION",
+    "passionDesc": "Deep appreciation for local flavors.",
+    "title": "Maza Team",
+    "name": "Maza"
+  },
+  "wine": {
+    "heading": "Wine Selection",
+    "subtitle": "Curated Collection",
+    "description": "Explore our carefully selected wines from renowned Mediterranean vineyards.",
+    "wines": {
+      "barolo": {
+        "name": "Barolo",
+        "price": "$85",
+        "description": "Full-bodied red from Piedmont with notes of cherry, rose, and truffle."
+      },
+      "barbaresco": {
+        "name": "Barbaresco",
+        "price": "$78",
+        "description": "Elegant Nebbiolo with refined tannins and floral aromatics."
+      },
+      "chianti": {
+        "name": "Chianti Classico",
+        "price": "$62",
+        "description": "Classic Tuscan red with bright cherry and earthy undertones."
+      },
+      "prosecco": {
+        "name": "Prosecco",
+        "price": "$48",
+        "description": "Sparkling white with crisp apple and pear notes."
+      },
+      "soave": {
+        "name": "Soave",
+        "price": "$52",
+        "description": "Refreshing white wine with citrus and almond flavors."
+      }
+    }
+  },
+  "reviews": {
+    "heading": "Customer Reviews",
+    "subtitle": "What Our Guests Say",
+    "customers": {
+      "christian": {
+        "name": "Christian Cooper",
+        "text": "Maza exceeded my expectations! The staff was incredibly attentive and friendly. The mezes were simply magnificent, and the atmosphere made for an unforgettable evening. We'll definitely be back!"
+      },
+      "emily": {
+        "name": "Emily Hughes",
+        "text": "A truly magical dining experience. From the moment we walked in, we felt like family. The dishes were fresh and perfectly seasoned. Highly recommend this gem in Lefkoşa!"
+      },
+      "alexander": {
+        "name": "Alexander Hayes",
+        "text": "Exceptional cuisine in an elegant setting. The attention to detail in both food and service made our anniversary dinner unforgettable. A true culinary landmark in Cyprus."
+      }
+    }
+  },
+  "carousel": {
+    "heading": "Quality Ingredients",
+    "subtitle": "AUTHENTIC",
+    "description": "We offer an exquisite culinary journey, featuring authentic dishes crafted with the finest local ingredients.",
+    "slide1": {
+      "title": "Authentic Flavors",
+      "description": "Every dish tells a story of tradition and passion. From our kitchen to your table, experience the true taste of Maza."
+    },
+    "slide2": {
+      "title": "Wine & Dine",
+      "description": "Our sommeliers have selected wines that perfectly complement each course. Raise a glass to the good life."
+    },
+    "slide3": {
+      "title": "Seasonal Ingredients",
+      "description": "We source the finest seasonal produce and ingredients to bring you dishes that celebrate the best of each moment."
+    },
+    "slide4": {
+      "title": "An Unforgettable Evening",
+      "description": "Whether a romantic dinner or a celebration with loved ones, our restaurant sets the stage for memorable moments."
+    },
+    "slide5": {
+      "title": "Crafted with Care",
+      "description": "Our chefs pour heart and soul into every plate. Discover why guests return again and again."
+    }
+  },
+  "homeBlog": {
+    "heading": "Resources & Articles",
+    "subtitle": "Latest News",
+    "description": "Understanding the regions, flavors, and best pairings for Italian wines.",
+    "readMore": "Read More"
+  },
+  "dolceVita": {
+    "subtitle": "FLAVOR JOURNEY",
+    "heading": "Love for Good Food. Maza Style!",
+    "description": "From classic kebabs to delectable meze specialties, our menu showcases the vibrant flavors and rich traditions of Cyprus."
+  },
+  "menu": {
+    "heading": "Our Menu",
+    "subtitle": "FLAVOR FEAST",
+    "foods": "Foods",
+    "drinks": "Drinks",
+    "items": {
+      "meze-tabagi": {
+        "name": "Maza Special Meze Plate",
+        "description": "Daily prepared fresh meze varieties: Hummus, Mutabbel, Atom and Köpoğlu.",
+        "price": "₺180"
+      },
+      "kuzu-sis": {
+        "name": "Lamb Shish",
+        "description": "Special marinated tender lamb meat, with grilled peppers and rice.",
+        "price": "₺450"
+      },
+      "izgara-kofte": {
+        "name": "Grilled Meatballs",
+        "description": "Maza style spicy grilled meatballs, with crispy potatoes and special sauce.",
+        "price": "₺350"
+      },
+      "findik-lahmacun": {
+        "name": "Mini Lahmacun",
+        "description": "Crispy mini lahmacun from stone oven (4 pieces).",
+        "price": "₺120"
+      },
+      "tavuk-sarma": {
+        "name": "Chicken Wrap",
+        "description": "Chicken wrap with special sauce, Mediterranean greens and garnish.",
+        "price": "₺320"
+      },
+      "maza-salata": {
+        "name": "Maza Seasonal Salad",
+        "description": "Fresh seasonal greens with a touch of pomegranate molasses and extra virgin olive oil.",
+        "price": "₺150"
+      },
+      "deniz-borulcesi": {
+        "name": "Sea Beans (Samphire)",
+        "description": "Fresh sea beans meze with garlic and olive oil.",
+        "price": "₺140"
+      },
+      "atom-meze": {
+        "name": "Atom",
+        "description": "Strained yogurt with hot Albanian pepper and a touch of sizzling butter.",
+        "price": "₺130"
+      },
+      "coca-cola": {
+        "name": "Coca-Cola",
+        "description": "Cold and refreshing classic taste.",
+        "price": "₺45"
+      },
+      "fanta": {
+        "name": "Fanta",
+        "description": "Orange flavored carbonated drink.",
+        "price": "₺45"
+      },
+      "sprite": {
+        "name": "Sprite",
+        "description": "Lemon and lime flavored refreshing carbonated drink.",
+        "price": "₺45"
+      },
+      "ayran": {
+        "name": "Ayran",
+        "description": "Traditional ice-cold ayran from full-fat yogurt.",
+        "price": "₺35"
+      },
+      "salgam": {
+        "name": "Turnip Juice",
+        "description": "Adana style spicy or non-spicy turnip juice.",
+        "price": "₺40"
+      },
+      "limonata": {
+        "name": "Homemade Lemonade",
+        "description": "With fresh squeezed lemon and mint leaves.",
+        "price": "₺55"
+      },
+      "portakal-suyu": {
+        "name": "Fresh Orange Juice",
+        "description": "100% natural daily squeezed orange juice.",
+        "price": "₺65"
+      },
+      "su": {
+        "name": "Spring Water",
+        "description": "Natural mineral water in glass bottle (330ml).",
+        "price": "₺25"
+      },
+      "turk-kahvesi": {
+        "name": "Turkish Coffee",
+        "description": "Roasted on embers, served with Turkish delight.",
+        "price": "₺50"
+      },
+      "cay": {
+        "name": "Brewed Tea",
+        "description": "Freshly brewed Rize tea.",
+        "price": "₺20"
+      }
+    }
+  },
+  "booking": {
+    "heading": "Book A Table",
+    "subtitle": "Get In Touch",
+    "description": "Celebrate the timeless flavors of Cyprus, where every meal is a masterpiece.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "date": "Date",
+      "guests": "Guests",
+      "submit": "Make A Reservation",
+      "success": "Your reservation has been received successfully! Thank you. 👋",
+      "error": "An error occurred. Please try again later."
+    }
+  },
+  "footer": {
+    "description": "Experience the essence of flavor and tradition at Maza Lefkoşa",
+    "explore": "Explore",
+    "contact": "Contact",
+    "phone": "+90 533 MZA 00 00",
+    "email": "info@mazalefkosa.com",
+    "address": "Tanzimat Sk 166, Nicosia 99010",
+    "language": "Language",
+    "copyright": "© Maza Lefkoşa. All Rights Reserved.",
+    "builtBy": "Built by"
+  },
+  "events": {
+    "subtitle": "Gatherings & Celebrations",
+    "heading": "Unforgettable Events",
+    "description": "From intimate wine tastings to grand celebrations, Maza Lefkoşa provides the perfect backdrop for your most cherished moments.",
+    "event1": {
+      "title": "Mediterranean Wine Evening",
+      "date": "Every Thursday",
+      "time": "7:00 PM - 10:00 PM",
+      "description": "An exclusive tasting journey through the region's finest vineyards, paired with artisanal cheeses and mezes.",
+      "tag": "Sommelier Choice"
+    },
+    "event2": {
+      "title": "Sunset Jazz Evening",
+      "date": "Saturdays",
+      "time": "6:00 PM - 11:00 PM",
+      "description": "Experience the magic of live jazz against the backdrop of the Nicosia sunset, featuring our signature platters.",
+      "tag": "Atmosphere"
+    },
+    "event3": {
+      "title": "Culinary Masterclass",
+      "date": "First Sunday of Month",
+      "time": "11:00 AM - 2:00 PM",
+      "description": "Join our Executive Chef for an intimate cooking session, learning the secrets of traditional kitchen.",
+      "tag": "Workshop"
+    },
+    "privateHeading": "Host Your Private Occasion",
+    "privateDescription": "Whether it's an intimate rehearsal dinner, a milestone anniversary, or a corporate retreat, our dedicated events team will craft an experience tailored to your vision.",
+    "capacity": "50+",
+    "capacityLabel": "Guest Capacity",
+    "customMenu": "Custom",
+    "customMenuLabel": "Menu Design",
+    "buyout": "Full",
+    "buyoutLabel": "Venue Buyout",
+    "enquire": "Enquire Now",
+    "reserve": "Reserve Your Spot"
+  },
+  "contact": {
+    "subtitle": "Get In Touch",
+    "heading": "Contact Us",
+    "visitHeading": "Visit Us",
+    "locationLabel": "Address",
+    "locationText": "Tanzimat Sk 166,\nNicosia 99010",
+    "hoursLabel": "Opening Hours",
+    "hoursText": "Tuesday - Saturday: 12:00 PM - 01:00 AM\nSunday: 12:00 PM - 01:00 AM\nMonday: Closed",
+    "contactLabel": "Direct Contact",
+    "contactText": "+90 533 MZA 00 00\ninfo@mazalefkosa.com",
+    "mapLoading": "Interactive Map Loading...",
+    "formHeading": "Send a Message",
+    "formDescription": "We would love to hear from you. Please fill out the form below.",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "E.g. Alexander",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "E.g. Papas",
+    "email": "Email Address",
+    "emailPlaceholder": "alexander@example.com",
+    "subject": "Subject",
+    "subjectReservation": "Reservation Inquiry",
+    "subjectEvent": "Private Event",
+    "subjectGeneral": "General Question",
+    "subjectFeedback": "Feedback",
+    "message": "Message",
+    "messagePlaceholder": "Tell us more about your request...",
+    "submit": "Send Message"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "subtitle": "Menu Management & Price Updates",
+    "addNew": "Add New",
+    "foods": "Foods",
+    "drinks": "Drinks",
+    "siteSettings": "Site Settings",
+    "reservations": "Reservations",
+    "edit": "Edit",
+    "add": "Add",
+    "food": "Food",
+    "drink": "Drink",
+    "name": "Name",
+    "description": "Description",
+    "price": "Price",
+    "image": "Image URL",
+    "imageAlt": "Image Alt Text",
+    "save": "Save",
+    "cancel": "Cancel",
+    "deleteConfirm": "Are you sure you want to delete this item?",
+    "addSuccess": "New item added successfully! 🎉",
+    "updateSuccess": "Item updated successfully! ✅",
+    "placeholderName": "E.g. Spaghetti Bolognese or Coca-Cola",
+    "placeholderDesc": "Brief info about the item...",
+    "category": "Category",
+    "imageAltLabel": "Image Alt Text (SEO)",
+    "imageAltPlaceholder": "E.g. cold drink",
+    "imageUrlLabel": "Image URL (External Link)",
+    "imageUrlPlaceholder": "https://example.com/image.jpg",
+    "imagePreview": "Image Preview",
+    "imageLoadError": "Image Could Not Be Loaded",
+    "update": "Update",
+    "heroSettings": "Hero (Opening) Slides",
+    "slide": "Slide",
+    "subheading": "Subheading",
+    "heading1": "Main Heading 1",
+    "heading2": "Main Heading 2",
+    "saveAll": "Save All Settings",
+    "siteSettingsSuccess": "Site settings saved successfully! 🚀",
+    "noItems": "There is nothing in this category yet.",
+    "successTitle": "Process Complete!",
+    "ok": "OK",
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "loginError": "Login failed. Please check your credentials.",
+    "accessDenied": "Access denied. Only admins can log in.",
+    "resName": "Name",
+    "resEmail": "Email",
+    "resDate": "Date",
+    "resGuests": "Guests",
+    "resStatus": "Status",
+    "resDelete": "Delete",
+    "resEmpty": "No reservations yet.",
+    "resConfirmDelete": "Are you sure you want to delete this reservation?",
+    "orders": "Orders",
+    "orderTable": "Table",
+    "orderItems": "Items",
+    "orderTotal": "Total",
+    "orderStatus": "Status",
+    "orderEmpty": "No orders yet.",
+    "orderDelete": "Delete Order",
+    "orderConfirmDelete": "Are you sure you want to delete this order?"
+  },
+  "cart": {
+    "title": "Your Order",
+    "add": "Add to Order",
+    "empty": "Your order list is empty.",
+    "checkout": "Checkout",
+    "total": "Total",
+    "tableNumber": "Table Number",
+    "customerName": "Name",
+    "placeOrder": "Place Order",
+    "success": "Your order has been received! Bon appétit. 🥘",
+    "error": "An error occurred while placing your order.",
+    "items": "Items"
+  }
+}

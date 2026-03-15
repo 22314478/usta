@@ -1,0 +1,460 @@
+{
+  "header": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "menu": "Menü",
+    "events": "Etkinlikler",
+    "blog": "Blog",
+    "contact": "İletişim",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "hero": {
+    "slide1": {
+      "subheading": "Deneyim",
+      "heading1": "Maza",
+      "heading2": "Lezzetleri",
+      "description": "Lefkoşa'nın kalbinde, geleneksel meze ve ızgara sanatını keşfedin."
+    },
+    "slide2": {
+      "subheading": "Tat",
+      "heading1": "Otantik",
+      "heading2": "Mutfak",
+      "description": "En taze yerel malzemelerle hazırlanan eşsiz Maza tarifleri."
+    },
+    "slide3": {
+      "subheading": "Miras",
+      "heading1": "Köklü",
+      "heading2": "Gelenek",
+      "description": "Mutfak sanatının samimi bir sofrada buluştuğu Maza dünyasına hoş geldiniz."
+    },
+    "viewMenu": "Menüyü Görüntüle"
+  },
+  "features": {
+    "feature1": {
+      "line1": "OTANTİK",
+      "line2": "MUTFAK"
+    },
+    "feature2": {
+      "line1": "TAZE & YEREL",
+      "line2": "MALZEMELER"
+    },
+    "feature3": {
+      "line1": "DAVETKAR",
+      "line2": "ATMOSFER"
+    },
+    "feature4": {
+      "line1": "SICAK",
+      "line2": "HİZMET"
+    }
+  },
+  "story": {
+    "heading": "Hikayemiz",
+    "subtitle": "Lezzet Yolculuğu",
+    "block1": {
+      "heading": "Gelenek",
+      "description": "Lefkoşa'nın kalbinde, geleneksel tariflerin modern dokunuşlarla buluştuğu eşsiz bir mekan."
+    },
+    "block2": {
+      "heading": "Mezeler",
+      "description": "Özenle hazırlanan mezelerimizle sofralarınıza zenginlik ve keyif katıyoruz."
+    },
+    "block3": {
+      "heading": "Buluşma",
+      "description": "Dostların ve ailenin masada bir araya geldiği, samimiyetin ve lezzetin paylaşıldığı yer."
+    }
+  },
+  "chef": {
+    "heading": "Ekibimiz",
+    "subtitle": "DENEYİMLİ",
+    "quote": "Lezzet, sevgiyle harmanlanan bir sanattır.",
+    "bio1": "Maza Lefkoşa ekibi, yılların mutfak uzmanlığını ve yerel lezzetlere olan tutkusunu sofranıza taşıyor.",
+    "bio2": "Geleneksel Kıbrıs ve Akdeniz mutfağının en seçkin örneklerini sunmak için buradayız.",
+    "passionTitle": "TUTKU",
+    "passionDesc": "Yerel lezzetlere derin takdir.",
+    "title": "Maza Ekibi",
+    "name": "Maza"
+  },
+  "wine": {
+    "heading": "Şarap Seçkisi",
+    "subtitle": "Özenle Seçilmiş Koleksiyon",
+    "description": "Ünlü Akdeniz bağlarından özenle seçilmiş şaraplarımızı keşfedin.",
+    "wines": {
+      "barolo": {
+        "name": "Barolo",
+        "price": "₺85",
+        "description": "Piedmont'tan kiraz, gül ve trüf notaları olan tam gövdeli kırmızı."
+      },
+      "barbaresco": {
+        "name": "Barbaresco",
+        "price": "₺78",
+        "description": "Rafine tanenler ve çiçeksi aromalar içeren zarif Nebbiolo."
+      },
+      "chianti": {
+        "name": "Chianti Classico",
+        "price": "₺62",
+        "description": "Parlak kiraz ve toprak tonları olan klasik Toskana kırmızısı."
+      },
+      "prosecco": {
+        "name": "Prosecco",
+        "price": "₺48",
+        "description": "Çıtır elma ve armut notaları olan köpüklü beyaz."
+      },
+      "soave": {
+        "name": "Soave",
+        "price": "₺52",
+        "description": "Narenciye ve badem aromaları olan ferahlatıcı beyaz şarap."
+      }
+    }
+  },
+  "reviews": {
+    "heading": "Müşteri Yorumları",
+    "subtitle": "Misafirlerimizin Görüşleri",
+    "customers": {
+      "christian": {
+        "name": "Christian Cooper",
+        "text": "Maza beklentilerimin ötesine geçti! Personel inanılmaz derecede ilgili ve güler yüzlüydü. Mezeler tek kelimeyle muhteşemdi ve atmosfer akşamımızı unutulmaz kıldı. Kesinlikle tekrar geleceğiz!"
+      },
+      "emily": {
+        "name": "Emily Hughes",
+        "text": "Gerçekten büyülü bir yemek deneyimi. İçeri girdiğimiz andan itibaren kendimizi evimizde gibi hissettik. Yemekler taze ve mükemmel baharatlanmıştı. Lefkoşa'daki bu cevheri kesinlikle tavsiye ediyorum!"
+      },
+      "alexander": {
+        "name": "Alexander Hayes",
+        "text": "Zarif bir ortamda olağanüstü lezzetler. Hem yemek hem de hizmetteki detaylara gösterilen özen, yıldönümü yemeğimizi unutulmaz kıldı. Kıbrıs'ın gerçek bir lezzet durağı."
+      }
+    }
+  },
+  "carousel": {
+    "heading": "Kaliteli Malzemeler",
+    "subtitle": "OTANTİK",
+    "description": "En taze yerel malzemelerle hazırlanan otantik yemeklerle seçkin bir lezzet yolculuğu sunuyoruz.",
+    "slide1": {
+      "title": "Gerçek Lezzetler",
+      "description": "Her yemek bir gelenek ve tutku hikayesi anlatır. Mutfağımızdan sofranıza, Maza'nın gerçek tadını deneyimleyin."
+    },
+    "slide2": {
+      "title": "Yemek & Şarap",
+      "description": "Sommelier'lerimiz her yemeği mükemmel şekilde tamamlayan şaraplar seçti. Güzel bir hayata kadeh kaldırın."
+    },
+    "slide3": {
+      "title": "Sezonluk Ürünler",
+      "description": "Her anın en iyisini kutlayan yemekler sunmak için en taze sezonluk ürünleri tedarik ediyoruz."
+    },
+    "slide4": {
+      "title": "Unutulmaz Bir Akşam",
+      "description": "İster romantik bir akşam yemeği ister sevdiklerinizle bir kutlama olsun, restoranımız unutulmaz anlar için sahneyi hazırlar."
+    },
+    "slide5": {
+      "title": "Özenle Hazırlandı",
+      "description": "Şeflerimiz her tabağa yüreğini ve ruhunu katıyor. Misafirlerimizin neden tekrar tekrar geldiğini keşfedin."
+    }
+  },
+  "homeBlog": {
+    "heading": "Kaynaklar ve Makaleler",
+    "subtitle": "Son Haberler",
+    "description": "İtalyan şarapları için bölgeleri, lezzetleri ve en iyi eşleşmeleri anlamak.",
+    "readMore": "Devamını Oku"
+  },
+  "dolceVita": {
+    "subtitle": "LA DOLCE VITA",
+    "heading": "İtalyan Yemeğine Aşk. Mamma Mia!",
+    "description": "Klasik makarna yemeklerinden lezzetli deniz ürünleri spesiyallerine kadar, menümüz İtalyan mutfağının canlı lezzetlerini ve zengin geleneklerini sergiliyor."
+  },
+  "menu": {
+    "heading": "Menümüz",
+    "subtitle": "LEZZET ŞÖLENİ",
+    "foods": "Yemekler",
+    "drinks": "İçecekler",
+    "items": {
+      "meze-tabagi": {
+        "name": "Maza Özel Meze Tabağı",
+        "description": "Günlük hazırlanan taze meze çeşitleri: Humus, Mutabbel, Atom ve Köpoğlu.",
+        "price": "₺180"
+      },
+      "kuzu-sis": {
+        "name": "Kuzu Şiş",
+        "description": "Özel marine edilmiş yumuşak kuzu eti, közlenmiş biber ve pilav ile.",
+        "price": "₺450"
+      },
+      "izgara-kofte": {
+        "name": "Izgara Köfte",
+        "description": "Maza usulü baharatlı ızgara köfte, çıtır patates ve özel sosuyla.",
+        "price": "₺350"
+      },
+      "findik-lahmacun": {
+        "name": "Fındık Lahmacun",
+        "description": "Taş fırında çıtır fındık lahmacun (4 adet).",
+        "price": "₺120"
+      },
+      "tavuk-sarma": {
+        "name": "Tavuk Sarma",
+        "description": "Özel soslu tavuk sarma, Akdeniz yeşillikleri ve garnitür ile.",
+        "price": "₺320"
+      },
+      "maza-salata": {
+        "name": "Maza Mevsim Salata",
+        "description": "Taze mevsim yeşillikleri, nar ekşisi ve sızma zeytinyağı dokunuşuyla.",
+        "price": "₺150"
+      },
+      "deniz-borulcesi": {
+        "name": "Deniz Börülcesi",
+        "description": "Sarımsaklı ve zeytinyağlı taze deniz börülcesi mezesi.",
+        "price": "₺140"
+      },
+      "atom-meze": {
+        "name": "Atom",
+        "description": "Süzme yoğurt, acı Arnavut biberi ve kızgın tereyağı dokunuşuyla.",
+        "price": "₺130"
+      },
+      "coca-cola": {
+        "name": "Coca-Cola",
+        "description": "Soğuk ve ferahlatıcı klasik lezzet.",
+        "price": "₺45"
+      },
+      "fanta": {
+        "name": "Fanta",
+        "description": "Portakal aromalı gazlı içecek.",
+        "price": "₺45"
+      },
+      "sprite": {
+        "name": "Sprite",
+        "description": "Limon ve misket limonu aromalı ferahlatıcı gazlı içecek.",
+        "price": "₺45"
+      },
+      "ayran": {
+        "name": "Ayran",
+        "description": "Tam yağlı yoğurttan geleneksel buz gibi ayran.",
+        "price": "₺35"
+      },
+      "salgam": {
+        "name": "Şalgam Suyu",
+        "description": "Adana usulü acılı veya acısız şalgam suyu.",
+        "price": "₺40"
+      },
+      "limonata": {
+        "name": "Ev Yapımı Limonata",
+        "description": "Taze sıkılmış limon ve nane yaprakları ile.",
+        "price": "₺55"
+      },
+      "portakal-suyu": {
+        "name": "Taze Portakal Suyu",
+        "description": "Günlük sıkılmış %100 doğal portakal suyu.",
+        "price": "₺65"
+      },
+      "su": {
+        "name": "Kaynak Suyu",
+        "description": "Doğal mineralli cam şişe su (330ml).",
+        "price": "₺25"
+      },
+      "turk-kahvesi": {
+        "name": "Türk Kahvesi",
+        "description": "Közde pişmiş, lokum eşliğinde servis edilir.",
+        "price": "₺50"
+      },
+      "cay": {
+        "name": "Demleme Çay",
+        "description": "Taze demlenmiş Rize çayı.",
+        "price": "₺20"
+      }
+    }
+  },
+  "booking": {
+    "heading": "Masa Rezervasyonu",
+    "subtitle": "İletişime Geçin",
+    "description": "İtalya'nın zamansız lezzetlerini kutlayın, her öğünün bir başyapıt olduğu yer.",
+    "form": {
+      "name": "Ad",
+      "email": "E-posta",
+      "date": "Tarih",
+      "guests": "Misafir Sayısı",
+      "submit": "Rezervasyon Yap",
+      "success": "Rezervasyonunuz başarıyla alındı! Teşekkür ederiz. 👋",
+      "error": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+    }
+  },
+  "footer": {
+    "description": "Maza Lefkoşa'da lezzetin ve geleneğin özünü deneyimleyin",
+    "explore": "Keşfet",
+    "contact": "İletişim",
+    "phone": "+90 533 MZA 00 00",
+    "email": "info@mazalefkosa.com",
+    "address": "Tanzimat Sk 166, Lefkoşa 99010",
+    "language": "Dil",
+    "copyright": "© Maza Lefkoşa. Tüm hakları saklıdır.",
+    "builtBy": "Yapımcı"
+  },
+  "events": {
+    "subtitle": "Buluşmalar ve Kutlamalar",
+    "heading": "Unutulmaz Etkinlikler",
+    "description": "Samimi şarap tadımlarından büyük kutlamalara kadar, Maza Lefkoşa en değerli anlarınız için mükemmel bir atmosfer sunar.",
+    "event1": {
+      "title": "Akdeniz Şarap Gecesi",
+      "date": "Her Perşembe",
+      "time": "19:00 - 22:00",
+      "description": "Bölgenin en seçkin bağlarında, zanaatkar peynirler ve mezeler eşliğinde özel bir tadım yolculuğu.",
+      "tag": "Sommelier Seçimi"
+    },
+    "event2": {
+      "title": "Gün Batımı Caz Gecesi",
+      "date": "Cumartesi",
+      "time": "18:00 - 23:00",
+      "description": "Lefkoşa gün batımı eşliğinde canlı caz müziğinin büyüsünü, imza tabağımızla deneyimleyin.",
+      "tag": "Atmosfer"
+    },
+    "event3": {
+      "title": "Mutfak Atölyesi",
+      "date": "Ayın İlk Pazarı",
+      "time": "11:00 - 14:00",
+      "description": "Yaratıcı şef ekibimizle geleneksel Kıbrıs mutfağının sırlarını öğreneceğiniz samimi bir yemek dersi.",
+      "tag": "Atölye"
+    },
+    "privateHeading": "Özel Günlerinize Ev Sahipliği Yapalım",
+    "privateDescription": "Samimi bir kutlama yemeği veya kurumsal bir etkinlik olsun, deneyimli ekibimiz vizyonunuza uygun bir deneyim tasarlayacaktır.",
+    "capacity": "50+",
+    "capacityLabel": "Misafir Kapasitesi",
+    "customMenu": "Özel",
+    "customMenuLabel": "Menü Tasarımı",
+    "buyout": "Tam",
+    "buyoutLabel": "Mekan Kiralama",
+    "enquire": "Bilgi Alın",
+    "reserve": "Yerinizi Ayırtın"
+  },
+  "contact": {
+    "subtitle": "İletişime Geçin", "heading": "Bize Ulaşın", "visitHeading": "Mekanımızı Ziyaret Edin",
+    "locationLabel": "Konum", "locationText": "Tanzimat Sk 166,\nLefkoşa 99010",
+    "hoursLabel": "Çalışma Saatleri", "hoursText": "Salı - Cumartesi: 12:00 - 01:00\nPazar: 12:00 - 01:00\nPazartesi: Kapalı",
+    "contactLabel": "Doğrudan İletişim", "contactText": "+90 533 000 00 00\ninfo@mazalefkosa.com",
+    "mapLoading": "Etkileşimli Harita Yükleniyor...", "formHeading": "Mesaj Gönderin", "formDescription": "Sizden haber almak isteriz. Lütfen aşağıdaki formu doldurun.",
+    "firstName": "Ad", "firstNamePlaceholder": "Örn. Ahmet", "lastName": "Soyad", "lastNamePlaceholder": "Örn. Yılmaz",
+    "email": "E-posta Adresi", "emailPlaceholder": "ahmet@example.com", "subject": "Konu",
+    "subjectReservation": "Rezervasyon Sorgusu", "subjectEvent": "Özel Etkinlik", "subjectGeneral": "Genel Soru", "subjectFeedback": "Geri Bildirim",
+    "message": "Mesaj", "messagePlaceholder": "Talebiniz hakkında daha fazla bilgi verin...", "submit": "Mesaj Gönder"
+  },
+  "admin": {
+    "title": "Admin Paneli",
+    "subtitle": "Menü Yönetimi & Fiyat Güncelleme",
+    "addNew": "Yeni Ekle",
+    "foods": "Yemekler",
+    "drinks": "İçecekler",
+    "siteSettings": "Site Ayarları",
+    "reservations": "Rezervasyonlar",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "food": "Yemek",
+    "drink": "İçecek",
+    "name": "Adı",
+    "description": "Açıklama",
+    "price": "Fiyat",
+    "image": "Resim URL",
+    "imageAlt": "Resim Alt Metni",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "deleteConfirm": "Bu yemeği silmek istediğine emin misin ?",
+    "addSuccess": "Yeni yemek başarıyla eklendi! 🎉",
+    "updateSuccess": "Yemek başarıyla güncellendi ! ✅",
+    "placeholderName": "Örn: Bolonez Spagetti veya Coca-Cola",
+    "placeholderDesc": "İçerik hakkında kısa bilgi...",
+    "category": "Kategori",
+    "imageAltLabel": "Resim Alt Yazı (SEO)",
+    "imageAltPlaceholder": "Örn: soğuk içecek",
+    "imageUrlLabel": "Resim URL (Dış Bağlantı)",
+    "imageUrlPlaceholder": "https://example.com/image.jpg",
+    "imagePreview": "Resim Önizleme",
+    "imageLoadError": "Resim Yüklenemedi",
+    "update": "Güncelle",
+    "heroSettings": "Hero (Açılış) Slaytları",
+    "slide": "Slayt",
+    "subheading": "Alt Başlık",
+    "heading1": "Ana Başlık 1",
+    "heading2": "Ana Başlık 2",
+    "saveAll": "Tüm Ayarları Kaydet",
+    "siteSettingsSuccess": "Site ayarları başarıyla kaydedildi! 🚀",
+    "noItems": "Bu kategoride henüz bir şey yok.",
+    "successTitle": "İşlem Tamam!",
+    "ok": "Tamam",
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "email": "E-posta",
+    "password": "Şifre",
+    "loginError": "Giriş başarısız. Lütfen bilgilerinizi kontrol edin.",
+    "accessDenied": "Yetkisiz erişim. Sadece yöneticiler giriş yapabilir.",
+    "resName": "İsim",
+    "resEmail": "E-posta",
+    "resDate": "Tarih",
+    "resGuests": "Kişi",
+    "resStatus": "Durum",
+    "resDelete": "Sil",
+    "resEmpty": "Henüz rezervasyon yok.",
+    "resConfirmDelete": "Bu rezervasyonu silmek istediğinize emin misiniz?",
+    "orders": "Siparişler",
+    "orderTable": "Masa",
+    "orderItems": "Ürünler",
+    "orderTotal": "Toplam",
+    "orderStatus": "Durum",
+    "orderEmpty": "Henüz sipariş yok.",
+    "orderDelete": "Siparişi Sil",
+    "orderConfirmDelete": "Bu siparişi silmek istediğinize emin misiniz?",
+    "statusWaiting": "Bekliyor",
+    "statusPreparing": "Hazırlanıyor",
+    "statusDelivered": "Teslim Edildi",
+    "deliverOrder": "Teslim Et",
+    "paymentReceived": "Ödeme Alındı",
+    "confirmCloseTable": "Ödeme alındı mı? Masadaki tüm siparişler temizlenecektir!",
+    "tableTotal": "Masa Toplam Tutarı",
+    "backToTables": "Masalara Dön",
+    "selectTable": "Masa Seçin",
+    "approveOrder": "Onayla",
+    "stats": "İstatistikler",
+    "dailyRevenue": "Günlük Ciro",
+    "monthlyRevenue": "Aylık Ciro",
+    "totalRevenue": "Toplam Ciro",
+    "bestSellers": "En Çok Satanlar",
+    "totalOrdersCount": "Toplam Sipariş",
+    "recentPaidOrders": "Son Ödenen Siparişler",
+    "orderDate": "Sipariş Tarihi",
+    "noPaidOrders": "Henüz ödenmiş sipariş bulunmuyor.",
+    "waiterCallTitle": "Garson Çağrıları",
+    "clearCall": "Tamamla",
+    "generateQr": "QR Oluştur",
+    "printQr": "Yazdır",
+    "qrTitle": "MASA QR KODU",
+    "qrForTable": "Masa {num} için menü bağlantısı",
+    "stock": "Stok Durumu",
+    "inStock": "Stokta",
+    "outOfStock": "Tükendi",
+    "unlimited": "Sınırsız",
+    "addNote": "Not Ekle",
+    "notePlaceholder": "Örn: Soğansız olsun, az pişmiş...",
+    "customerNotes": "Müşteri Notları",
+    "rating": "Değerlendirme",
+    "review": "Yorum",
+    "submitReview": "Değerlendir",
+    "reviewTitle": "Bizi Değerlendirin",
+    "reviewDesc": "Yemeğiniz nasıl oldu? Lütfen bize puan verin ve yorum yapın.",
+    "reviewSuccess": "Değerlendirmeniz için teşekkür ederiz!",
+    "averageRating": "Ortalama Puan",
+    "totalReviews": "Toplam Değerlendirme",
+    "itemsLabel": "adet satıldı"
+  },
+  "cart": {
+    "title": "Siparişiniz",
+    "add": "Siparişe Ekle",
+    "empty": "Sipariş listeniz boş.",
+    "checkout": "Siparişi Tamamla",
+    "total": "Toplam",
+    "tableNumber": "Masa Numarası",
+    "customerName": "İsim",
+    "placeOrder": "Siparişi Gönder",
+    "success": "Siparişiniz başarıyla alındı! Afiyet olsun. 🥘",
+    "error": "Sipariş gönderilirken bir hata oluştu.",
+    "items": "Ürünler",
+    "orderWaiting": "Siparişiniz için bekleniyor...",
+    "orderPreparing": "Siparişiniz hazırlanıyor...",
+    "orderDelivered": "Siparişiniz teslim edildi. Afiyet olsun!",
+    "callWaiter": "Garson Çağır",
+    "waiterCalled": "Garsona haber verildi!",
+    "waiterCalling": "Haber veriliyor...",
+    "enterTable": "Lütfen önce masa numaranızı girin."
+  }
+}
