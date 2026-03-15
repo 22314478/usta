@@ -56,20 +56,24 @@ export function OurMenu() {
   useEffect(() => {
     // Sync menu items from Firestore for real-time stock
     const qm = collection(db, "menu");
+    console.log("Setting up Firestore menu listener...");
     const unsubscribeMenu = onSnapshot(qm, (snap) => {
-      const items: MenuItemType[] = [];
+      console.log("Firestore menu snapshot received, docs count:", snap.docs.length);
+      const itemsArr: MenuItemType[] = [];
       snap.forEach(doc => {
         const data = doc.data();
-        items.push({ 
+        itemsArr.push({ 
           id: doc.id, 
           ...data,
           category: data.category || 'food' // Fallback for legacy items
         } as MenuItemType);
       });
-      if (items.length > 0) {
-        setMenuItems(items);
+      
+      if (itemsArr.length > 0) {
+        console.log("Setting menu items from Firestore:", itemsArr.length);
+        setMenuItems(itemsArr);
       } else {
-        // Fallback to local if Firestore is empty
+        console.log("Firestore menu empty, using local fallback");
         setMenuItems(getMenuItems());
       }
     }, (error) => {
@@ -83,9 +87,12 @@ export function OurMenu() {
 
   const foodItems = menuItems.filter(item => item.category === 'food');
   const drinkItems = menuItems.filter(item => item.category === 'drink');
+  
+  console.log("Rendered menu counts - Total:", menuItems.length, "Food:", foodItems.length, "Drink:", drinkItems.length);
 
   const foodLeft = foodItems.slice(0, Math.ceil(foodItems.length / 2));
   const foodRight = foodItems.slice(Math.ceil(foodItems.length / 2));
+
 
   const drinkLeft = drinkItems.slice(0, Math.ceil(drinkItems.length / 2));
   const drinkRight = drinkItems.slice(Math.ceil(drinkItems.length / 2));
