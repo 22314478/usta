@@ -292,7 +292,7 @@ export default function AdminPage() {
   };
 
   const handleFactoryReset = async () => {
-    if (!confirm("TÜM MENÜYÜ SİLECEK ve orijinal Maza menüsünü (resimli) geri yükleyeceksiniz. Emin misiniz?")) return;
+    if (!confirm("TÜM MENÜYÜ SİLECEK ve orijinal Usta Cadde menüsünü (resimli) geri yükleyeceksiniz. Emin misiniz?")) return;
     
     setLoading(true);
     try {
@@ -376,7 +376,7 @@ export default function AdminPage() {
                 name="email"
                 required
                 className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 focus:border-[#c9a962] outline-none transition-all"
-                placeholder="admin@mazalefkosa.com"
+                placeholder="admin@ustacadde.com"
               />
             </div>
             <div>
@@ -454,14 +454,23 @@ export default function AdminPage() {
               {t('logout')}
             </button>
             {!showAddForm && (
-              <>
+              <div className="flex gap-4 items-center">
+                {/* Global Waiter Call Indicator */}
+                {calls.filter(c => c.status === 'pending').length > 0 && (
+                  <div className="flex items-center gap-2 bg-red-500/20 text-red-500 border border-red-500/30 px-4 py-2 rounded-xl animate-pulse">
+                    <FaBell className="animate-bounce" />
+                    <span className="text-xs font-bold uppercase tracking-widest">
+                      {calls.filter(c => c.status === 'pending').length} {t('waiterCallTitle')}
+                    </span>
+                  </div>
+                )}
                 <button
                   onClick={() => setShowAddForm(true)}
                   className="flex items-center gap-2 bg-[#c9a962] hover:bg-[#b39352] text-black px-6 py-3 rounded-full font-bold transition-all transform hover:scale-105"
                 >
                   <FaPlus /> {t('addNew')}
                 </button>
-              </>
+              </div>
             )}
           </div>
         </header>
@@ -664,7 +673,7 @@ export default function AdminPage() {
                 <FaHistory /> Menü Fabrika Ayarları
               </h2>
               <p className="text-white/60 mb-6 text-sm">
-                Tüm menüyü siler ve orijinal resimli Maza menüsünü geri yükler. (Senin eklediğin ürünler silinir!)
+                Tüm menüyü siler ve orijinal resimli Usta Cadde menüsünü geri yükler. (Senin eklediğin ürünler silinir!)
               </p>
               <button
                 onClick={handleFactoryReset}
@@ -860,7 +869,7 @@ export default function AdminPage() {
                       </div>
                     )}
                     {hasCallingWaiter && (
-                      <div 
+                      <button 
                         onClick={async (e) => {
                           e.stopPropagation();
                           const call = calls.find(c => c.tableNumber === tableNum && c.status === 'pending');
@@ -868,10 +877,10 @@ export default function AdminPage() {
                             await updateDoc(doc(db, "calls", call.id), { status: 'completed' });
                           }
                         }}
-                        className="mt-4 bg-white/5 hover:bg-white/10 text-white/60 hover:text-white px-4 py-2 rounded-lg text-xs font-bold transition-all"
+                        className="mt-4 w-full bg-red-500 hover:bg-red-600 text-white px-4 py-3 rounded-xl text-xs font-bold transition-all shadow-lg active:scale-95"
                       >
                         {t('clearCall')}
-                      </div>
+                      </button>
                     )}
                     <button
                       onClick={(e) => {
@@ -905,7 +914,23 @@ export default function AdminPage() {
                 </div>
               </div>
               
-              <div className="bg-[#c9a962]/10 border border-[#c9a962]/30 px-8 py-4 rounded-2xl flex flex-col items-end">
+              <div className="bg-[#c9a962]/10 border border-[#c9a962]/30 px-8 py-4 rounded-2xl flex flex-col items-end relative overflow-hidden">
+                {/* Waiter Call within Table View */}
+                {calls.some(c => c.tableNumber === selectedTable && c.status === 'pending') && (
+                  <div className="absolute top-0 left-0 bottom-0 flex items-center px-4 bg-red-500/10 border-r border-red-500/20">
+                    <button
+                      onClick={async () => {
+                        const call = calls.find(c => c.tableNumber === selectedTable && c.status === 'pending');
+                        if (call) {
+                          await updateDoc(doc(db, "calls", call.id), { status: 'completed' });
+                        }
+                      }}
+                      className="flex items-center gap-2 text-red-500 hover:text-white bg-red-500/10 hover:bg-red-500 px-4 py-2 rounded-lg text-[10px] font-bold uppercase tracking-widest transition-all"
+                    >
+                      <FaBell className="animate-bounce" /> {t('clearCall')}
+                    </button>
+                  </div>
+                )}
                 <span className="text-[#c9a962] text-[10px] uppercase tracking-widest font-bold mb-1">{t('tableTotal')}</span>
                 <span className="text-2xl font-[family-name:var(--font-gilda)] text-white">
                   ₺{orders
@@ -1275,7 +1300,7 @@ export default function AdminPage() {
             </div>
             
             <div className="hidden print:block mt-8 text-black font-gilda text-5xl">
-              MAZA LEFKOŞA
+              USTA CADDE LEFKOŞA
             </div>
           </div>
         </div>
