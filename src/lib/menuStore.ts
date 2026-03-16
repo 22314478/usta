@@ -27,7 +27,7 @@ const DEFAULT_MENU_ITEMS: MenuItem[] = [
     name: "Bulgur Köftesi",
     description: "2 adet geleneksel usul bulgur köftesi.",
     price: "₺200",
-    image: "https://images.pexels.com/photos/10360696/pexels-photo-10360696.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    image: "https://images.pexels.com/photos/12737661/pexels-photo-12737661.jpeg?auto=compress&cs=tinysrgb&w=1000",
     imageAlt: "Bulgur Köftesi",
     category: 'food'
   },
@@ -36,7 +36,7 @@ const DEFAULT_MENU_ITEMS: MenuItem[] = [
     name: "Hellimli Börek",
     description: "Taze hellim peyniri ile hazırlanan Kıbrıs böreği.",
     price: "₺300",
-    image: "https://images.pexels.com/photos/10184407/pexels-photo-10184407.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    image: "https://images.pexels.com/photos/12301140/pexels-photo-12301140.jpeg?auto=compress&cs=tinysrgb&w=1000",
     imageAlt: "Hellimli Börek",
     category: 'food'
   },
@@ -54,7 +54,7 @@ const DEFAULT_MENU_ITEMS: MenuItem[] = [
     name: "Patatesli Gözleme",
     description: "El açması yufka içerisinde baharatlı patates dolgusu.",
     price: "₺300",
-    image: "https://images.pexels.com/photos/13444454/pexels-photo-13444454.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    image: "https://images.pexels.com/photos/10491024/pexels-photo-10491024.jpeg?auto=compress&cs=tinysrgb&w=1000",
     imageAlt: "Patatesli Gözleme",
     category: 'food'
   },
@@ -63,7 +63,7 @@ const DEFAULT_MENU_ITEMS: MenuItem[] = [
     name: "Çıtır Mantı",
     description: "Özel sos ve yoğurt eşliğinde servis edilen çıtır mantı.",
     price: "₺350",
-    image: "https://images.pexels.com/photos/10360696/pexels-photo-10360696.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    image: "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&w=1000",
     imageAlt: "Çıtır Mantı",
     category: 'food'
   },

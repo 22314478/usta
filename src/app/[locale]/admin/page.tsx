@@ -298,6 +298,38 @@ export default function AdminPage() {
     setShowAddForm(false);
   };
 
+  const handleApplyHamurEviMenu = async () => {
+    if (confirm("Mevcut TÜM menü verilerini silip Hamur Evi varsayılan menüsünü (gözlemeler, mantılar vb.) yüklemek istediğinize emin misiniz? Bu işlem geri alınamaz.")) {
+      try {
+        setLoading(true);
+        // 1. Delete all current menu items in Firestore
+        const menuSnap = await getDocs(collection(db, "menu"));
+        const batch = writeBatch(db);
+        menuSnap.forEach((doc) => {
+          batch.delete(doc.ref);
+        });
+        await batch.commit();
+
+        // 2. Add new Hamur Evi items from menuStore
+        const defaultItems = getMenuItems(); 
+        for (const item of defaultItems) {
+          const { id, ...itemData } = item;
+          await addDoc(collection(db, "menu"), {
+            ...itemData,
+            createdAt: serverTimestamp()
+          });
+        }
+        
+        triggerSuccess("Hamur Evi menüsü başarıyla uygulandı! Canlı site güncellendi.");
+      } catch (error) {
+        console.error("Error applying Hamur Evi menu:", error);
+        alert("Bir hata oluştu. Konsol kayıtlarını kontrol edin.");
+      } finally {
+        setLoading(false);
+      }
+    }
+  };
+
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setAuthError(null);
@@ -1155,7 +1187,16 @@ export default function AdminPage() {
         )}
 
         {((activeTab as string) !== 'site') && ((activeTab as string) !== 'reservations') && ((activeTab as string) !== 'stats') && (
-          <section key={activeTab} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="space-y-6">
+            <div className="flex justify-end mb-4">
+              <button
+                onClick={handleApplyHamurEviMenu}
+                className="flex items-center gap-2 bg-red-500/10 hover:bg-red-500 text-red-500 hover:text-white px-6 py-3 rounded-xl border border-red-500/20 transition-all font-bold text-sm"
+              >
+                <FaStar /> Hamur Evi Menüsünü Uygula
+              </button>
+            </div>
+            <section key={activeTab} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredItems.map((item) => (
               <div key={item.id} className="bg-[#111] rounded-2xl overflow-hidden border border-white/5 hover:border-[#c9a962]/20 transition-all group shadow-lg">
                 <div className="relative h-48 w-full bg-black">
@@ -1195,6 +1236,7 @@ export default function AdminPage() {
               </div>
             ))}
           </section>
+          </div>
         )}
         {activeTab !== 'site' && activeTab !== 'reservations' && filteredItems.length === 0 && (
           <div className="text-center py-20 text-white/20">
