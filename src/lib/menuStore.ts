@@ -5,165 +5,129 @@ const STORAGE_KEY = 'restaurant_menu_items';
 
 const DEFAULT_MENU_ITEMS: MenuItem[] = [
   {
-    id: "meze-tabagi",
-    name: "Usta Cadde Özel Meze Tabağı",
-    description: "Günlük hazırlanan taze meze çeşitleri: Humus, Mutabbel, Atom ve Köpoğlu.",
-    price: "₺180",
-    image: "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Meze tabağı",
-    category: 'food'
-  },
-  {
-    id: "kuzu-sis",
-    name: "Kuzu Şiş",
-    description: "Özel marine edilmiş yumuşak kuzu eti, közlenmiş biber ve pilav ile.",
-    price: "₺450",
-    image: "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Kuzu Şiş",
-    category: 'food'
-  },
-  {
-    id: "izgara-kofte",
-    name: "Izgara Köfte",
-    description: "Usta Cadde usulü baharatlı ızgara köfte, çıtır patates ve özel sosuyla.",
+    id: "nohutlu-pilav-tavuk",
+    name: "Nohutlu Pilav Üstü Tavuk Menü",
+    description: "Nohutlu Pilav Üstü Tavuk + Ayran (30 cl.)",
     price: "₺350",
-    image: "https://images.pexels.com/photos/3120807/pexels-photo-3120807.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Izgara Köfte",
+    image: "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    imageAlt: "Nohutlu Pilav Üstü Tavuk",
     category: 'food'
   },
   {
-    id: "findik-lahmacun",
-    name: "Fındık Lahmacun",
-    description: "Taş fırında çıtır fındık lahmacun (4 adet).",
-    price: "₺120",
-    image: "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Fındık Lahmacun",
+    id: "kibris-badades",
+    name: "Kıbrıs Badades Patates Kızartması",
+    description: "Parmak dilim yerli Kıbrıs patatesi.",
+    price: "₺250",
+    image: "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    imageAlt: "Patates Kızartması",
     category: 'food'
   },
   {
-    id: "tavuk-sarma",
-    name: "Tavuk Sarma",
-    description: "Özel soslu tavuk sarma, Akdeniz yeşillikleri ve garnitür ile.",
-    price: "₺320",
-    image: "https://images.pexels.com/photos/54332/pexels-photo-54332.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Tavuk Sarma",
+    id: "bulgur-koftesi",
+    name: "Bulgur Köftesi",
+    description: "2 adet geleneksel usul bulgur köftesi.",
+    price: "₺200",
+    image: "https://images.pexels.com/photos/10360696/pexels-photo-10360696.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    imageAlt: "Bulgur Köftesi",
     category: 'food'
   },
   {
-    id: "maza-salata",
-    name: "Usta Cadde Mevsim Salata",
-    description: "Taze mevsim yeşillikleri, nar ekşisi ve sızma zeytinyağı dokunuşuyla.",
-    price: "₺150",
+    id: "hellimli-borek",
+    name: "Hellimli Börek",
+    description: "Taze hellim peyniri ile hazırlanan Kıbrıs böreği.",
+    price: "₺300",
+    image: "https://images.pexels.com/photos/10184407/pexels-photo-10184407.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    imageAlt: "Hellimli Börek",
+    category: 'food'
+  },
+  {
+    id: "hellimli-gozleme",
+    name: "Hellimli Gözleme",
+    description: "El açması yufka içerisinde taze hellim peyniri.",
+    price: "₺300",
+    image: "https://images.pexels.com/photos/13444454/pexels-photo-13444454.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    imageAlt: "Hellimli Gözleme",
+    category: 'food'
+  },
+  {
+    id: "patatesli-gozleme",
+    name: "Patatesli Gözleme",
+    description: "El açması yufka içerisinde baharatlı patates dolgusu.",
+    price: "₺300",
+    image: "https://images.pexels.com/photos/13444454/pexels-photo-13444454.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    imageAlt: "Patatesli Gözleme",
+    category: 'food'
+  },
+  {
+    id: "citir-manti",
+    name: "Çıtır Mantı",
+    description: "Özel sos ve yoğurt eşliğinde servis edilen çıtır mantı.",
+    price: "₺350",
+    image: "https://images.pexels.com/photos/10360696/pexels-photo-10360696.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    imageAlt: "Çıtır Mantı",
+    category: 'food'
+  },
+  {
+    id: "bidda-chicken-wrap",
+    name: "Bidda Chicken Wrap",
+    description: "Izgara tavuk, hellim peyniri, patates kızartması ve domates ile.",
+    price: "₺350",
+    image: "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    imageAlt: "Chicken Wrap",
+    category: 'food'
+  },
+  {
+    id: "kayseri-mantisi",
+    name: "Kayseri Mantısı",
+    description: "Geleneksel Kayseri usulü el mantısı.",
+    price: "₺350",
+    image: "https://images.pexels.com/photos/10360696/pexels-photo-10360696.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    imageAlt: "Kayseri Mantısı",
+    category: 'food'
+  },
+  {
+    id: "hellimli-salata",
+    name: "Izgara Hellimli Salata",
+    description: "Taze Akdeniz yeşillikleri ve ızgara hellim peyniri.",
+    price: "₺300",
     image: "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Maza Salata",
+    imageAlt: "Hellimli Salata",
     category: 'food'
   },
   {
-    id: "deniz-borulcesi",
-    name: "Deniz Börülcesi",
-    description: "Sarımsaklı ve zeytinyağlı taze deniz börülcesi mezesi.",
-    price: "₺140",
-    image: "https://images.pexels.com/photos/12301140/pexels-photo-12301140.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Deniz Börülcesi",
-    category: 'food'
-  },
-  {
-    id: "atom-meze",
-    name: "Atom",
-    description: "Süzme yoğurt, acı Arnavut biberi ve kızgın tereyağı dokunuşuyla.",
-    price: "₺130",
-    image: "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Atom meze",
+    id: "balli-katmer",
+    name: "Ballı Kaymaklı Katmer",
+    description: "Ballı ve kaymaklı çıtır el yapımı katmer.",
+    price: "₺250",
+    image: "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    imageAlt: "Ballı Kaymaklı Katmer",
     category: 'food'
   },
   {
     id: "coca-cola",
     name: "Coca-Cola",
-    description: "Soğuk ve ferahlatıcı klasik lezzet.",
-    price: "₺45",
+    description: "Soğuk ve ferahlatıcı (33 cl.)",
+    price: "₺70",
     image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=1000&auto=format&fit=crop",
-    imageAlt: "Coca Cola",
-    category: 'drink'
-  },
-  {
-    id: "fanta",
-    name: "Fanta",
-    description: "Portakal aromalı gazlı içecek.",
-    price: "₺45",
-    image: "https://images.unsplash.com/photo-1624517452488-04869289c4ca?q=80&w=1000&auto=format&fit=crop",
-    imageAlt: "Fanta",
-    category: 'drink'
-  },
-  {
-    id: "sprite",
-    name: "Sprite",
-    description: "Limon ve misket limonu aromalı ferahlatıcı gazlı içecek.",
-    price: "₺45",
-    image: "https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?q=80&w=1000&auto=format&fit=crop",
-    imageAlt: "Sprite",
+    imageAlt: "Coca-Cola",
     category: 'drink'
   },
   {
     id: "ayran",
     name: "Ayran",
-    description: "Tam yağlı yoğurttan geleneksel buz gibi ayran.",
-    price: "₺35",
+    description: "Büyük boy soğuk ayran (30 cl.)",
+    price: "₺60",
     image: "https://images.pexels.com/photos/248421/pexels-photo-248421.jpeg?auto=compress&cs=tinysrgb&w=1000",
     imageAlt: "Ayran",
     category: 'drink'
   },
   {
-    id: "salgam",
-    name: "Şalgam Suyu",
-    description: "Adana usulü acılı veya acısız şalgam suyu.",
-    price: "₺40",
-    image: "https://images.pexels.com/photos/2363345/pexels-photo-2363345.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Şalgam Suyu",
-    category: 'drink'
-  },
-  {
-    id: "limonata",
-    name: "Ev Yapımı Limonata",
-    description: "Taze sıkılmış limon ve nane yaprakları ile.",
-    price: "₺55",
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1000&auto=format&fit=crop",
-    imageAlt: "Limonata",
-    category: 'drink'
-  },
-  {
-    id: "portakal-suyu",
-    name: "Taze Portakal Suyu",
-    description: "Günlük sıkılmış %100 doğal portakal suyu.",
-    price: "₺65",
-    image: "https://images.unsplash.com/photo-1613478223719-2ab802602423?q=80&w=1000&auto=format&fit=crop",
-    imageAlt: "Portakal Suyu",
-    category: 'drink'
-  },
-  {
     id: "su",
-    name: "Kaynak Suyu",
-    description: "Doğal mineralli cam şişe su (330ml).",
-    price: "₺25",
+    name: "Su",
+    description: "Kaynak suyu (50 cl.)",
+    price: "₺30",
     image: "https://images.pexels.com/photos/4040645/pexels-photo-4040645.jpeg?auto=compress&cs=tinysrgb&w=1000",
     imageAlt: "Su",
-    category: 'drink'
-  },
-  {
-    id: "turk-kahvesi",
-    name: "Türk Kahvesi",
-    description: "Közde pişmiş, lokum eşliğinde servis edilir.",
-    price: "₺50",
-    image: "https://images.pexels.com/photos/2638026/pexels-photo-2638026.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Türk Kahvesi",
-    category: 'drink'
-  },
-  {
-    id: "cay",
-    name: "Demleme Çay",
-    description: "Taze demlenmiş Rize çayı.",
-    price: "₺20",
-    image: "https://images.pexels.com/photos/2446342/pexels-photo-2446342.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    imageAlt: "Çay",
     category: 'drink'
   }
 ];

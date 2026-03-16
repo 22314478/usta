@@ -12,21 +12,21 @@
   "hero": {
     "slide1": {
       "subheading": "Experience",
-      "heading1": "Usta Cadde",
-      "heading2": "Lefkoşa",
-      "description": "Discover a gastronomic experience that transports you to the heart of Lefkoşa."
+      "heading1": "Hamur Evi",
+      "heading2": "Flavors",
+      "description": "Discover handcrafted gözleme and traditional mantı in the heart of Lefkoşa."
     },
     "slide2": {
       "subheading": "Taste",
       "heading1": "Authentic",
       "heading2": "Cuisine",
-      "description": "Handcrafted dishes from time-honored recipes and the finest local ingredients."
+      "description": "Handcrafted dishes from time-honored Hamur Evi recipes and the finest local ingredients."
     },
     "slide3": {
       "subheading": "Heritage",
       "heading1": "Rooted in",
       "heading2": "Tradition",
-      "description": "Where generations of culinary artistry meet the warmth of Usta Cadde hospitality."
+      "description": "Where generations of culinary artistry meet the warmth of Hamur Evi hospitality."
     },
     "viewMenu": "View Menu"
   },
@@ -65,15 +65,15 @@
     }
   },
   "chef": {
-    "heading": "Our Chef",
+    "heading": "Our Team",
     "subtitle": "SEASONED",
-    "quote": "Food is the universal language of mankind.",
-    "bio1": "The Usta Cadde Lefkoşa team brings years of culinary expertise and a passion for local flavors to your table.",
-    "bio2": "We are here to offer the most exquisite examples of traditional Cypriot and Mediterranean cuisine.",
-    "passionTitle": "PASSION",
-    "passionDesc": "Deep appreciation for local flavors.",
-    "title": "Usta Cadde Team",
-    "name": "Usta Cadde"
+    "quote": "Every dough is a labor of love.",
+    "bio1": "The Hamur Evi Lefkoşa team brings years of culinary expertise and a passion for local flavors to your table.",
+    "bio2": "We are here to offer the most exquisite examples of handmade Cypriot and Anatolian pastries.",
+    "passionTitle": "LABOR",
+    "passionDesc": "Deep appreciation for traditional dough works.",
+    "title": "Hamur Evi Team",
+    "name": "Hamur Evi"
   },
   "wine": {
     "heading": "Wine Selection",
@@ -112,8 +112,8 @@
     "subtitle": "What Our Guests Say",
     "customers": {
       "christian": {
-        "name": "Christian Cooper",
-        "text": "Usta Cadde exceeded my expectations! The staff was incredibly attentive and friendly. The flavors were simply magnificent, and the atmosphere made for an unforgettable evening. We'll definitely be back!"
+        "name": "Ahmet Yılmaz",
+        "text": "Hamur Evi's gözleme reminded me of the taste of my childhood! The staff was incredibly attentive and friendly. The flavors were simply magnificent, and the atmosphere made for an unforgettable evening. We'll definitely be back!"
       },
       "emily": {
         "name": "Emily Hughes",
@@ -158,8 +158,8 @@
   },
   "dolceVita": {
     "subtitle": "FLAVOR JOURNEY",
-    "heading": "Love for Good Food. Usta Cadde Style!",
-    "description": "From classic kebabs to delectable meze specialties, our menu showcases the vibrant flavors and rich traditions of Cyprus."
+    "heading": "Love for Good Food. Hamur Evi Style!",
+    "description": "From classic gözleme to delectable handmade mantı specialties, our menu showcases the vibrant flavors and rich traditions of Cyprus."
   },
   "menu": {
     "heading": "Our Menu",
@@ -274,14 +274,14 @@
     }
   },
   "footer": {
-    "description": "Experience the essence of flavor and tradition at Usta Cadde Lefkoşa",
+    "description": "Experience the essence of flavor and tradition at Hamur Evi Lefkoşa",
     "explore": "Explore",
     "contact": "Contact",
     "phone": "+90 539 110 44 44",
-    "email": "info@ustacadde.com",
+    "email": "info@hamurevi.com",
     "address": "Mehmet Akif Cd, Lefkoşa 99010",
     "language": "Language",
-    "copyright": "© Usta Cadde Lefkoşa. All Rights Reserved.",
+    "copyright": "© Hamur Evi Lefkoşa. All Rights Reserved.",
     "builtBy": "Built by"
   },
   "events": {

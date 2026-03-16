@@ -12,21 +12,21 @@
   "hero": {
     "slide1": {
       "subheading": "Deneyim",
-      "heading1": "Usta Cadde",
+      "heading1": "Hamur Evi",
       "heading2": "Lezzetleri",
-      "description": "Lefkoşa'nın kalbinde, geleneksel lezzetlerin modern sanatını keşfedin."
+      "description": "Lefkoşa'nın kalbinde, el açması gözlemeler ve geleneksel mantı sanatını keşfedin."
     },
     "slide2": {
       "subheading": "Tat",
       "heading1": "Otantik",
       "heading2": "Mutfak",
-      "description": "En taze yerel malzemelerle hazırlanan eşsiz Usta Cadde tarifleri."
+      "description": "En taze yerel malzemelerle hazırlanan eşsiz Hamur Evi tarifleri."
     },
     "slide3": {
-      "subheading": "Miras",
-      "heading1": "Köklü",
-      "heading2": "Gelenek",
-      "description": "Mutfak sanatının samimi bir sofrada buluştuğu Usta Cadde dünyasına hoş geldiniz."
+      "subheading": "Gelenek",
+      "heading1": "El Emeği",
+      "heading2": "Hamur İşleri",
+      "description": "Mutfak sanatının samimi bir sofrada buluştuğu Hamur Evi dünyasına hoş geldiniz."
     },
     "viewMenu": "Menüyü Görüntüle"
   },
@@ -53,11 +53,11 @@
     "subtitle": "Lezzet Yolculuğu",
     "block1": {
       "heading": "Gelenek",
-      "description": "Lefkoşa'nın kalbinde, geleneksel tariflerin modern dokunuşlarla buluştuğu eşsiz bir mekan."
+      "description": "Lefkoşa'nın kalbinde, el açması böreklerin ve geleneksel harçların buluştuğu eşsiz bir mekan."
     },
     "block2": {
-      "heading": "Lezzetler",
-      "description": "Özenle hazırlanan yemeklerimizle sofralarınıza zenginlik ve keyif katıyoruz."
+      "heading": "Mantılar",
+      "description": "Özenle hazırlanan el mantılarımızla sofralarınıza zenginlik ve keyif katıyoruz."
     },
     "block3": {
       "heading": "Buluşma",
@@ -67,13 +67,13 @@
   "chef": {
     "heading": "Ekibimiz",
     "subtitle": "DENEYİMLİ",
-    "quote": "Lezzet, sevgiyle harmanlanan bir sanattır.",
-    "bio1": "Usta Cadde Lefkoşa ekibi, yılların mutfak uzmanlığını ve yerel lezzetlere olan tutkusunu sofranıza taşıyor.",
-    "bio2": "Geleneksel Kıbrıs ve Akdeniz mutfağının en seçkin örneklerini sunmak için buradayız.",
-    "passionTitle": "TUTKU",
-    "passionDesc": "Yerel lezzetlere derin takdir.",
-    "title": "Usta Cadde Ekibi",
-    "name": "Usta Cadde"
+    "quote": "Her hamur, sevgiyle harmanlanan bir emektir.",
+    "bio1": "Hamur Evi Lefkoşa ekibi, yılların mutfak uzmanlığını ve yerel lezzetlere olan tutkusunu sofranıza taşıyor.",
+    "bio2": "Geleneksel Kıbrıs ve Anadolu mutfağının en seçkin el yapımı örneklerini sunmak için buradayız.",
+    "passionTitle": "EMEK",
+    "passionDesc": "Geleneksel hamur işlerine derin takdir.",
+    "title": "Hamur Evi Ekibi",
+    "name": "Hamur Evi"
   },
   "wine": {
     "heading": "Şarap Seçkisi",
@@ -112,8 +112,8 @@
     "subtitle": "Misafirlerimizin Görüşleri",
     "customers": {
       "christian": {
-        "name": "Christian Cooper",
-        "text": "Usta Cadde beklentilerimin ötesine geçti! Personel inanılmaz derecede ilgili ve güler yüzlüydü. Lezzetler tek kelimeyle muhteşemdi ve atmosfer akşamımızı unutulmaz kıldı. Kesinlikle tekrar geleceğiz!"
+        "name": "Ahmet Yılmaz",
+        "text": "Hamur Evi'nin gözlemeleri çocukluğumdaki tadı hatırlattı! Personel inanılmaz derecede ilgili ve güler yüzlüydü. Lezzetler tek kelimeyle muhteşemdi ve atmosfer akşamımızı unutulmaz kıldı. Kesinlikle tekrar geleceğiz!"
       },
       "emily": {
         "name": "Emily Hughes",
@@ -158,8 +158,8 @@
   },
   "dolceVita": {
     "subtitle": "LEZZET YOLCULUĞU",
-    "heading": "İyi Yemeğe Aşk. Usta Cadde Usulü!",
-    "description": "Klasik kebaplardan lezzetli meze çeşitlerine kadar, menümüz Kıbrıs mutfağının canlı lezzetlerini ve zengin geleneklerini sergiliyor."
+    "heading": "İyi Yemeğe Aşk. Hamur Evi Usulü!",
+    "description": "Klasik gözlemelerden lezzetli el mantı çeşitlerine kadar, menümüz Kıbrıs mutfağının canlı lezzetlerini ve zengin geleneklerini sergiliyor."
   },
   "menu": {
     "heading": "Menümüz",
@@ -275,39 +275,39 @@
     }
   },
   "footer": {
-    "description": "Usta Cadde Lefkoşa'da lezzetin ve geleneğin özünü deneyimleyin",
+    "description": "Hamur Evi Lefkoşa'da lezzetin ve geleneğin özünü deneyimleyin",
     "explore": "Keşfet",
     "contact": "İletişim",
     "phone": "+90 539 110 44 44",
-    "email": "info@ustacadde.com",
+    "email": "info@hamurevi.com",
     "address": "Mehmet Akif Cd, Lefkoşa 99010",
     "language": "Dil",
-    "copyright": "© Usta Cadde Lefkoşa. Tüm hakları saklıdır.",
+    "copyright": "© Hamur Evi Lefkoşa. Tüm hakları saklıdır.",
     "builtBy": "Yapımcı"
   },
   "events": {
     "subtitle": "Buluşmalar ve Kutlamalar",
     "heading": "Unutulmaz Etkinlikler",
-    "description": "Samimi şarap tadımlarından büyük kutlamalara kadar, Usta Cadde Lefkoşa en değerli anlarınız için mükemmel bir atmosfer sunar.",
+    "description": "Samimi el emeği atölyelerinden büyük kutlamalara kadar, Hamur Evi Lefkoşa en değerli anlarınız için mükemmel bir atmosfer sunar.",
     "event1": {
-      "title": "Akdeniz Şarap Gecesi",
+      "title": "Geleneksel Mantı Günü",
       "date": "Her Perşembe",
-      "time": "19:00 - 22:00",
-      "description": "Bölgenin en seçkin bağlarında, zanaatkar peynirler ve mezeler eşliğinde özel bir tadım yolculuğu.",
-      "tag": "Sommelier Seçimi"
+      "time": "12:00 - 15:00",
+      "description": "Bölgenin en taze malzemeleriyle hazırlanan, zanaatkar yoğurtlar eşliğinde özel bir mantı ziyafeti.",
+      "tag": "Şef Seçimi"
     },
     "event2": {
-      "title": "Gün Batımı Caz Gecesi",
+      "title": "Gözleme Saati",
       "date": "Cumartesi",
-      "time": "18:00 - 23:00",
-      "description": "Lefkoşa gün batımı eşliğinde canlı caz müziğinin büyüsünü, imza tabağımızla deneyimleyin.",
+      "time": "10:00 - 13:00",
+      "description": "Sıcak taze sıkılmış meyve suları ve demli çay eşliğinde el açması gözleme keyfi.",
       "tag": "Atmosfer"
     },
     "event3": {
-      "title": "Mutfak Atölyesi",
+      "title": "Hamur Açma Atölyesi",
       "date": "Ayın İlk Pazarı",
       "time": "11:00 - 14:00",
-      "description": "Yaratıcı şef ekibimizle geleneksel Kıbrıs mutfağının sırlarını öğreneceğiniz samimi bir yemek dersi.",
+      "description": "Yaratıcı şef ekibimizle geleneksel Kıbrıs hamur işlerinin sırlarını öğreneceğiniz samimi bir ders.",
       "tag": "Atölye"
     },
     "privateHeading": "Özel Günlerinize Ev Sahipliği Yapalım",
