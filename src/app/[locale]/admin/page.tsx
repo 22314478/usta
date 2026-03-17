@@ -4,7 +4,8 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { MenuItem } from "@/lib/api/types";
-import { getMenuItems, saveMenuItems, addMenuItem, updateMenuItem, deleteMenuItem, HAMUR_EVI_MENU } from "@/lib/menuStore";
+import { getMenuItems, saveMenuItems, addMenuItem, updateMenuItem, deleteMenuItem } from "@/lib/menuStore";
+import { hamurEviMenu } from "@/lib/hamurEviMenu";
 import { getSiteSettings, saveSiteSettings, SiteSettings } from "@/lib/siteStore";
 import { FaTrash, FaEdit, FaPlus, FaSave, FaTimes, FaGlobe, FaImage, FaCalendarAlt, FaArrowLeft, FaCheck, FaBell, FaQrcode, FaPrint, FaCheckDouble, FaChartLine, FaCrown, FaHistory, FaStar } from "react-icons/fa";
 import { useTranslations } from "next-intl";
@@ -299,7 +300,7 @@ export default function AdminPage() {
   };
 
   const handleApplyHamurEviMenu = async () => {
-    if (confirm("Mevcut TÜM menü verilerini silip Hamur Evi varsayılan menüsünü (gözlemeler, mantılar vb.) yüklemek istediğinize emin misiniz? Bu işlem geri alınamaz.")) {
+    if (confirm("Mevcut TÜM menü verilerini silip Hamur Evi menüsünü (fotoğraflar dahil) yüklemek istediğinize emin misiniz? Bu işlem geri alınamaz.")) {
       try {
         setLoading(true);
         // 1. Delete all current menu items in Firestore
@@ -310,17 +311,22 @@ export default function AdminPage() {
         });
         await batch.commit();
 
-        // 2. Add new Hamur Evi items from menuStore
-        const defaultItems = HAMUR_EVI_MENU; 
-        for (const item of defaultItems) {
-          const { id, ...itemData } = item;
+        // 2. Add Hamur Evi items from local data
+        for (const item of hamurEviMenu) {
           await addDoc(collection(db, "menu"), {
-            ...itemData,
+            name: item.name,
+            description: item.description,
+            price: item.price,
+            image: item.image,
+            imageAlt: item.imageAlt,
+            category: item.category,
+            subcategory: item.subcategory,
+            stock: item.stock,
             createdAt: serverTimestamp()
           });
         }
         
-        triggerSuccess("Hamur Evi menüsü başarıyla uygulandı! Canlı site güncellendi.");
+        triggerSuccess(`Hamur Evi menüsü başarıyla uygulandı! ${hamurEviMenu.length} ürün yüklendi. 🎉`);
       } catch (error) {
         console.error("Error applying Hamur Evi menu:", error);
         alert("Bir hata oluştu. Konsol kayıtlarını kontrol edin.");
@@ -329,6 +335,7 @@ export default function AdminPage() {
       }
     }
   };
+
 
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
