@@ -303,17 +303,18 @@ export default function AdminPage() {
     if (confirm("Mevcut TÜM menü verilerini silip Hamur Evi menüsünü (fotoğraflar dahil) yüklemek istediğinize emin misiniz? Bu işlem geri alınamaz.")) {
       try {
         setLoading(true);
-        // 1. Delete all current menu items in Firestore
-        const menuSnap = await getDocs(collection(db, "menu"));
-        const batch = writeBatch(db);
-        menuSnap.forEach((doc) => {
-          batch.delete(doc.ref);
-        });
-        await batch.commit();
 
-        // 2. Add Hamur Evi items from local data
-        for (const item of hamurEviMenu) {
-          await addDoc(collection(db, "menu"), {
+        // 1. Delete all current menu items using writeBatch
+        const menuSnap = await getDocs(collection(db, "menu"));
+        const deleteBatch = writeBatch(db);
+        menuSnap.forEach((d) => deleteBatch.delete(d.ref));
+        await deleteBatch.commit();
+
+        // 2. Insert all Hamur Evi items using writeBatch (max 500 per batch, we have 49)
+        const insertBatch = writeBatch(db);
+        hamurEviMenu.forEach((item) => {
+          const newRef = doc(collection(db, "menu"));
+          insertBatch.set(newRef, {
             name: item.name,
             description: item.description,
             price: item.price,
@@ -322,19 +323,21 @@ export default function AdminPage() {
             category: item.category,
             subcategory: item.subcategory,
             stock: item.stock,
-            createdAt: serverTimestamp()
+            createdAt: new Date().toISOString(),
           });
-        }
-        
-        triggerSuccess(`Hamur Evi menüsü başarıyla uygulandı! ${hamurEviMenu.length} ürün yüklendi. 🎉`);
+        });
+        await insertBatch.commit();
+
+        triggerSuccess(`Hamur Evi menüsü uygulandı! ${hamurEviMenu.length} ürün yüklendi. 🎉`);
       } catch (error) {
         console.error("Error applying Hamur Evi menu:", error);
-        alert("Bir hata oluştu. Konsol kayıtlarını kontrol edin.");
+        alert("Bir hata oluştu: " + String(error));
       } finally {
         setLoading(false);
       }
     }
   };
+
 
 
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
