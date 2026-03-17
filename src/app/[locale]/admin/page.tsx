@@ -4,7 +4,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { MenuItem } from "@/lib/api/types";
-import { getMenuItems, saveMenuItems, addMenuItem, updateMenuItem, deleteMenuItem } from "@/lib/menuStore";
+import { getMenuItems, saveMenuItems, addMenuItem, updateMenuItem, deleteMenuItem, HAMUR_EVI_MENU } from "@/lib/menuStore";
 import { getSiteSettings, saveSiteSettings, SiteSettings } from "@/lib/siteStore";
 import { FaTrash, FaEdit, FaPlus, FaSave, FaTimes, FaGlobe, FaImage, FaCalendarAlt, FaArrowLeft, FaCheck, FaBell, FaQrcode, FaPrint, FaCheckDouble, FaChartLine, FaCrown, FaHistory, FaStar } from "react-icons/fa";
 import { useTranslations } from "next-intl";
@@ -311,7 +311,7 @@ export default function AdminPage() {
         await batch.commit();
 
         // 2. Add new Hamur Evi items from menuStore
-        const defaultItems = getMenuItems(); 
+        const defaultItems = HAMUR_EVI_MENU; 
         for (const item of defaultItems) {
           const { id, ...itemData } = item;
           await addDoc(collection(db, "menu"), {
